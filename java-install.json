@@ -1,0 +1,33 @@
+{
+    "name": "java",
+    "description": "Java language runner for gauge",
+    "versions": [
+        {
+            "version": "0.0.1",
+            "gaugeVersionSupport": {
+                "minimum": "0.0.1",
+                "maximum": ""
+            },
+
+            "install": {
+                "windows": "",
+                "linux": "",
+                "darwin": ""
+            },
+
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "",
+                    "linux": "",
+                    "darwin": ""
+                },
+                "x64": {
+                    "windows": "",
+                    "linux": "",
+                    "darwin": ""
+                }
+
+            }
+        }
+    ]
+}
