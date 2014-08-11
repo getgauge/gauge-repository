@@ -3,7 +3,7 @@
     "description": "Java language runner for gauge",
     "versions": [
         {
-            "version": "0.0.1",
+            "version": "0.0.2",
             "gaugeVersionSupport": {
                 "minimum": "0.0.1",
                 "maximum": ""
@@ -17,14 +17,14 @@
 
             "DownloadUrls": {
                 "x86": {
-                    "windows": "",
-                    "linux": "",
-                    "darwin": ""
+                    "windows": "http://download01.thoughtworks.com/twist/gauge/gauge-java/0.0.2/gauge-java-0.0.2-windows.x86.zip",
+                    "linux": "http://download01.thoughtworks.com/twist/gauge/gauge-java/0.0.2/gauge-java-0.0.2-linux.x86.zip",
+                    "darwin": "http://download01.thoughtworks.com/twist/gauge/gauge-java/0.0.2/gauge-java-0.0.2-darwin.x86.zip"
                 },
                 "x64": {
-                    "windows": "",
-                    "linux": "",
-                    "darwin": ""
+                    "windows": "http://download01.thoughtworks.com/twist/gauge/gauge-java/0.0.2/gauge-java-0.0.2-windows.x86_64.zip",
+                    "linux": "http://download01.thoughtworks.com/twist/gauge/gauge-java/0.0.2/gauge-java-0.0.2-linux.x86_64.zip",
+                    "darwin": "http://download01.thoughtworks.com/twist/gauge/gauge-java/0.0.2/gauge-java-0.0.2-darwin.x86_64.zip"
                 }
 
             }

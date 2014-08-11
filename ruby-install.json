@@ -1,0 +1,33 @@
+{
+    "name": "ruby",
+    "description": "Ruby language runner for gauge",
+    "versions": [
+        {
+            "version": "0.0.2",
+            "gaugeVersionSupport": {
+                "minimum": "0.0.1",
+                "maximum": ""
+            },
+
+            "install": {
+                "windows": "bin/install-ruby.bat",
+                "linux": "bin/install-ruby.sh",
+                "darwin": "bin/install-ruby.sh"
+            },
+
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "http://download01.thoughtworks.com/twist/gauge/gauge-ruby/0.0.2/gauge-ruby-0.0.2-windows.x86.zip",
+                    "linux": "http://download01.thoughtworks.com/twist/gauge/gauge-ruby/0.0.2/gauge-ruby-0.0.2-linux.x86.zip",
+                    "darwin": "http://download01.thoughtworks.com/twist/gauge/gauge-ruby/0.0.2/gauge-ruby-0.0.2-darwin.x86.zip"
+                },
+                "x64": {
+                    "windows": "http://download01.thoughtworks.com/twist/gauge/gauge-ruby/0.0.2/gauge-ruby-0.0.2-windows.x86_64.zip",
+                    "linux": "http://download01.thoughtworks.com/twist/gauge/gauge-ruby/0.0.2/gauge-ruby-0.0.2-linux.x86_64.zip",
+                    "darwin": "http://download01.thoughtworks.com/twist/gauge/gauge-ruby/0.0.2/gauge-ruby-0.0.2-darwin.x86_64.zip"
+                }
+
+            }
+        }
+    ]
+}
