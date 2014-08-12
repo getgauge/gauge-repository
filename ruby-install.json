@@ -10,9 +10,9 @@
             },
 
             "install": {
-                "windows": "bin/install-ruby.bat",
-                "linux": "bin/install-ruby.sh",
-                "darwin": "bin/install-ruby.sh"
+                "windows": "install-ruby.bat",
+                "linux": "install-ruby.sh",
+                "darwin": "install-ruby.sh"
             },
 
             "DownloadUrls": {
