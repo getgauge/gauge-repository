@@ -17,12 +17,12 @@
 
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge/gauge-csharp/releases/download/v0.0.2/gauge-csharp-0.0.2.0.zip",
+                    "windows": "https://github.com/getgauge/gauge-csharp/releases/download/v0.0.3/gauge-csharp-0.0.3.zip",
                     "linux": "",
                     "darwin": ""
                 },
                 "x64": {
-                    "windows": "https://github.com/getgauge/gauge-csharp/releases/download/v0.0.2/gauge-csharp-0.0.2.0.zip",
+                    "windows": "https://github.com/getgauge/gauge-csharp/releases/download/v0.0.3/gauge-csharp-0.0.3.zip",
                     "linux": "",
                     "darwin": ""
                 }
