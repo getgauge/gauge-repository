@@ -17,14 +17,14 @@
 
             "DownloadUrls": {
                 "x86": {
-                    "windows": "http://download01.thoughtworks.com/gauge/gauge-ruby/0.0.2/gauge-ruby-0.0.2-windows.x86.zip",
-                    "linux": "http://download01.thoughtworks.com/gauge/gauge-ruby/0.0.2/gauge-ruby-0.0.2-linux.x86.zip",
-                    "darwin": "http://download01.thoughtworks.com/gauge/gauge-ruby/0.0.2/gauge-ruby-0.0.2-darwin.x86.zip"
+                    "windows": "https://github.com/getgauge/gauge-ruby/releases/download/v0.0.2/gauge-ruby-0.0.2-windows.x86.zip",
+                    "linux": "https://github.com/getgauge/gauge-ruby/releases/download/v0.0.2/gauge-ruby-0.0.2-linux.x86.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ruby/releases/download/v0.0.2/gauge-ruby-0.0.2-darwin.x86.zip"
                 },
                 "x64": {
-                    "windows": "http://download01.thoughtworks.com/gauge/gauge-ruby/0.0.2/gauge-ruby-0.0.2-windows.x86_64.zip",
-                    "linux": "http://download01.thoughtworks.com/gauge/gauge-ruby/0.0.2/gauge-ruby-0.0.2-linux.x86_64.zip",
-                    "darwin": "http://download01.thoughtworks.com/gauge/gauge-ruby/0.0.2/gauge-ruby-0.0.2-darwin.x86_64.zip"
+                    "windows": "https://github.com/getgauge/gauge-ruby/releases/download/v0.0.2/gauge-ruby-0.0.2-windows.x86_64.zip",
+                    "linux": "https://github.com/getgauge/gauge-ruby/releases/download/v0.0.2/gauge-ruby-0.0.2-linux.x86_64.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ruby/releases/download/v0.0.2/gauge-ruby-0.0.2-darwin.x86_64.zip"
                 }
 
             }
