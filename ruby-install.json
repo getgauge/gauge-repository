@@ -3,10 +3,37 @@
     "description": "Ruby language runner for gauge",
     "versions": [
         {
+            "version": "0.0.5",
+            "gaugeVersionSupport": {
+                "minimum": "0.0.4",
+                "maximum": ""
+            },
+
+            "install": {
+                "windows": [],
+                "linux": [],
+                "darwin": []
+            },
+
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/getgauge/gauge-ruby/releases/download/0.0.5/gauge-ruby-0.0.5-windows.x86.zip",
+                    "linux": "https://github.com/getgauge/gauge-ruby/releases/download/0.0.5/gauge-ruby-0.0.5-linux.x86.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ruby/releases/download/0.0.5/gauge-ruby-0.0.5-darwin.x86.zip"
+                },
+                "x64": {
+                    "windows": "https://github.com/getgauge/gauge-ruby/releases/download/0.0.5/gauge-ruby-0.0.5-windows.x86_64.zip",
+                    "linux": "https://github.com/getgauge/gauge-ruby/releases/download/0.0.5/gauge-ruby-0.0.5-linux.x86_64.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ruby/releases/download/0.0.5/gauge-ruby-0.0.5-darwin.x86_64.zip"
+                }
+
+            }
+        },
+        {
             "version": "0.0.3",
             "gaugeVersionSupport": {
                 "minimum": "0.0.3",
-                "maximum": ""
+                "maximum": "0.0.3"
             },
 
             "install": {
