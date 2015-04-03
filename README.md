@@ -1,4 +1,4 @@
-gauge-repository
+Gauge-Repository
 ================
 
 Installation details of [gauge plugins and language runners](http://getgauge.io/documentation/user/current/plugins/README.html)
