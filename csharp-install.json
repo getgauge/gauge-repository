@@ -3,7 +3,7 @@
     "description": "C# language runner for gauge",
     "versions": [
         {
-            "version": "0.4.12",
+            "version": "0.4.2",
             "gaugeVersionSupport": {
                 "minimum": "0.1.4",
                 "maximum": ""
