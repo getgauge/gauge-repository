@@ -3,6 +3,34 @@
     "description": "HTML Report plugin for gauge",
     "versions": [
         {
+            "version": "1.1.0",
+            "gaugeVersionSupport": {
+                "minimum": "0.2.0",
+                "maximum": ""
+            },
+
+            "install": {
+                "windows": [],
+                "linux": [],
+                "darwin": []
+            },
+
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/getgauge/html-report/releases/download/v1.1.0/html-report-1.1.0-windows.x86.zip",
+                    "linux": "https://github.com/getgauge/html-report/releases/download/v1.1.0/html-report-1.1.0-linux.x86.zip",
+                    "darwin": "https://github.com/getgauge/html-report/releases/download/v1.1.0/html-report-1.1.0-darwin.x86.zip"
+                },
+                "x64": {
+                    "windows": "https://github.com/getgauge/html-report/releases/download/v1.1.0/html-report-1.1.0-windows.x86_64.zip",
+                    "linux": "https://github.com/getgauge/html-report/releases/download/v1.1.0/html-report-1.1.0-linux.x86_64.zip",
+                    "darwin": "https://github.com/getgauge/html-report/releases/download/v1.1.0/html-report-1.1.0-darwin.x86_64.zip"
+                }
+
+            }
+
+        },
+        {
             "version": "1.0.4",
             "gaugeVersionSupport": {
                 "minimum": "0.1.4",
