@@ -34,7 +34,7 @@
             "version": "1.0.4",
             "gaugeVersionSupport": {
                 "minimum": "0.1.4",
-                "maximum": ""
+                "maximum": "0.1.8"
             },
 
             "install": {
@@ -62,7 +62,7 @@
             "version": "1.0.3",
             "gaugeVersionSupport": {
                 "minimum": "0.0.1",
-                "maximum": ""
+                "maximum": "0.1.8"
             },
 
             "install": {
@@ -90,7 +90,7 @@
             "version": "1.0.2",
             "gaugeVersionSupport": {
                 "minimum": "0.0.1",
-                "maximum": ""
+                "maximum": "0.1.8"
             },
 
             "install": {
@@ -117,7 +117,7 @@
             "version": "1.0.1",
             "gaugeVersionSupport": {
                 "minimum": "0.0.1",
-                "maximum": ""
+                "maximum": "0.1.8"
             },
 
             "install": {

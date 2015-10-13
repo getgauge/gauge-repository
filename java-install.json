@@ -58,7 +58,7 @@
             "version": "0.2.2",
             "gaugeVersionSupport": {
                 "minimum": "0.1.4",
-                "maximum": ""
+                "maximum": "0.1.8"
             },
 
             "install": {
@@ -84,7 +84,7 @@
             "version": "0.2.1",
             "gaugeVersionSupport": {
                 "minimum": "0.1.4",
-                "maximum": ""
+                "maximum": "0.1.8"
             },
 
             "install": {
@@ -110,7 +110,7 @@
             "version": "0.2.0",
             "gaugeVersionSupport": {
                 "minimum": "0.1.4",
-                "maximum": ""
+                "maximum": "0.1.8"
             },
 
             "install": {
@@ -136,7 +136,7 @@
             "version": "0.1.0",
             "gaugeVersionSupport": {
                 "minimum": "0.1.0",
-                "maximum": ""
+                "maximum": "0.1.8"
             },
 
             "install": {
@@ -162,7 +162,7 @@
             "version": "0.0.8",
             "gaugeVersionSupport": {
                 "minimum": "0.0.5",
-                "maximum": ""
+                "maximum": "0.1.8"
             },
 
             "install": {
@@ -188,7 +188,7 @@
             "version": "0.0.7",
             "gaugeVersionSupport": {
                 "minimum": "0.0.5",
-                "maximum": ""
+                "maximum": "0.1.8"
             },
 
             "install": {
@@ -215,7 +215,7 @@
             "version": "0.0.6",
             "gaugeVersionSupport": {
                 "minimum": "0.0.5",
-                "maximum": ""
+                "maximum": "0.1.8"
             },
 
             "install": {
@@ -242,7 +242,7 @@
             "version": "0.0.5",
             "gaugeVersionSupport": {
                 "minimum": "0.0.4",
-                "maximum": ""
+                "maximum": "0.1.8"
             },
 
             "install": {
@@ -269,7 +269,7 @@
             "version": "0.0.4",
             "gaugeVersionSupport": {
                 "minimum": "0.0.4",
-                "maximum": ""
+                "maximum": "0.1.8"
             },
 
             "install": {
@@ -323,7 +323,7 @@
             "version": "0.0.2",
             "gaugeVersionSupport": {
                 "minimum": "0.0.1",
-                "maximum": ""
+                "maximum": "0.0.3"
             },
 
             "install": {
