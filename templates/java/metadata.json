@@ -1,0 +1,7 @@
+{
+  "name": "java",
+  "description": "Gauge template for Java plugin",
+  "version": "0.0.1",
+
+  "postInstallCmd" : ""
+}
