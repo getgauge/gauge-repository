@@ -1,0 +1,7 @@
+{
+  "name": "java_mavem",
+  "description": "Gauge template for Java plugin with Maven as Build tool",
+  "version": "0.0.1",
+
+  "postInstallCmd" : "mvn archetype:generate -DarchetypeArtifactId=gauge-maven-plugin -DarchetypeGroupId=com.thoughtworks.gauge.maven -DinteractiveMode=true"
+}
