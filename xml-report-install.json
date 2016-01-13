@@ -33,7 +33,7 @@
             "version": "0.1.1",
             "gaugeVersionSupport": {
                 "minimum": "0.2.0",
-                "maximum": ""
+                "maximum": "0.2.1"
             },
 
             "install": {
@@ -60,7 +60,7 @@
             "version": "0.1.0",
             "gaugeVersionSupport": {
                 "minimum": "0.2.0",
-                "maximum": ""
+                "maximum": "0.2.1"
             },
 
             "install": {
