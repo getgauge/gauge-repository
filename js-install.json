@@ -3,7 +3,7 @@
     "description": "JavaScript language runner for Gauge",
     "versions": [
         {
-            "version": "0.1.0",
+            "version": "0.1.1",
             "gaugeVersionSupport": {
                 "minimum": "0.3.0",
                 "maximum": ""
@@ -17,14 +17,14 @@
 
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v0.1.0/gauge-js-0.1.0.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v0.1.0/gauge-js-0.1.0.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v0.1.0/gauge-js-0.1.0.zip"
+                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v0.1.1/gauge-js-0.1.1.zip",
+                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v0.1.1/gauge-js-0.1.1.zip",
+                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v0.1.1/gauge-js-0.1.1.zip"
                 },
                 "x64": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v0.1.0/gauge-js-0.1.0.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v0.1.0/gauge-js-0.1.0.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v0.1.0/gauge-js-0.1.0.zip"
+                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v0.1.1/gauge-js-0.1.1.zip",
+                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v0.1.1/gauge-js-0.1.1.zip",
+                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v0.1.1/gauge-js-0.1.1.zip"
                 }
 
             }
