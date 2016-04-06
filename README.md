@@ -1,7 +1,7 @@
 Gauge-Repository
 ================
 
-Installation details of [gauge plugins and language runners](http://getgauge.io/documentation/user/current/plugins/README.html)
+This contains the meta-data of [gauge plugins and language runners](http://getgauge.io/documentation/user/current/plugins/README.html) which is used during installation and upgrades.
 
 ### Steps to add new plugin details :
 * Add a file with name {plugin_name}-install.json in the base directory.
