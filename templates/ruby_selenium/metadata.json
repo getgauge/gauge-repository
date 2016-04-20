@@ -1,0 +1,7 @@
+{
+  "name": "ruby_selenium",
+  "description": "Gauge template for Ruby plugin and Selenium as driver to interact with a web browser",
+  "version": "0.0.1",
+
+  "postInstallCmd" : "bundle install"
+}
