@@ -3,5 +3,6 @@
   "description": "Gauge template for Java plugin",
   "version": "0.0.1",
 
-  "postInstallCmd" : ""
+  "postInstallCmd" : "",
+  "postInstallMsg" : "Run specifications with \"gauge specs/\".\n"
 }
