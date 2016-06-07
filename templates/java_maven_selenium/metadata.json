@@ -4,5 +4,5 @@
   "version": "0.0.1",
 
   "postInstallCmd" : "mvn archetype:generate -DarchetypeArtifactId=gauge-archetype-selenium -DarchetypeGroupId=com.thoughtworks.gauge.maven -DinteractiveMode=true",
-  "postInstallMsg" : "Run specifications with \"mvn clean test/\" in project root."
+  "postInstallMsg" : "Run specifications with \"mvn clean test\" in project root."
 }
