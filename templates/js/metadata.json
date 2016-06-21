@@ -1,0 +1,8 @@
+{
+  "name": "js",
+  "description": "Gauge template for JavaScript plugin",
+  "version": "0.0.1",
+
+  "postInstallCmd" : "",
+  "postInstallMsg" : "Run tests with \"npm test\"."
+}
