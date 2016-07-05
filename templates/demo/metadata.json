@@ -3,6 +3,6 @@
   "description": "Gauge template for demo",
   "version": "0.0.1",
 
-  "postInstallCmd" : "",
-  "postInstallMsg" : "Run specifications with \"gauge specs/\"."
+  "postInstallCmd" : "atom .",
+  "postInstallMsg" : "Open the project folder to see the generated code"
 }
