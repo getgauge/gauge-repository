@@ -1,7 +1,7 @@
 {
   "name": "demo",
   "description": "Gauge template for demo",
-  "version": "0.0.1",
+  "version": "0.0.2",
 
   "postInstallCmd" : "atom .",
   "postInstallMsg" : "Open the project folder to see the generated code"
