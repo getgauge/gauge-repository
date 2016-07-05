@@ -12,7 +12,7 @@ public class StepImplementation {
   String email_regex = "^[\\w!#$%&'*+/=?`{|}~^-]+(?:\\.[\\w!#$%&'*+/=?`{|}~^-]+)*@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,6}$";
   Pattern pattern = Pattern.compile(email_regex);
 
-  @Step({"verify that email with dot com <email> is valid", "verify that email with dot co.in <email> is valid", "verify that email with underscore <email> is valid"})
+  @Step({"verify that email <email> is valid","verify that email with dot com <email> is valid", "verify that email with dot co.in <email> is valid", "verify that email with underscore <email> is valid"})
   public void validEmailFormat(String email) {
     Matcher matcher = pattern.matcher(email);
     assertEquals(matcher.matches(),true);
