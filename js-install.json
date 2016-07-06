@@ -5,8 +5,8 @@
         {
             "version": "1.2.1",
             "gaugeVersionSupport": {
-                "minimum": "0.3.0",
-                "maximum": ""
+                "minimum": "0.3.2",
+                "maximum": "0.5.0"
             },
 
             "install": {
@@ -32,8 +32,8 @@
         {
             "version": "1.2.0",
             "gaugeVersionSupport": {
-                "minimum": "0.3.0",
-                "maximum": ""
+                "minimum": "0.3.2",
+                "maximum": "0.5.0"
             },
 
             "install": {
@@ -59,8 +59,8 @@
         {
             "version": "1.1.0",
             "gaugeVersionSupport": {
-                "minimum": "0.3.0",
-                "maximum": ""
+                "minimum": "0.3.2",
+                "maximum": "0.5.0"
             },
 
             "install": {
@@ -86,8 +86,8 @@
         {
             "version": "1.0.0",
             "gaugeVersionSupport": {
-                "minimum": "0.3.0",
-                "maximum": ""
+                "minimum": "0.3.2",
+                "maximum": "0.5.0"
             },
 
             "install": {
@@ -114,7 +114,7 @@
             "version": "0.2.0",
             "gaugeVersionSupport": {
                 "minimum": "0.3.0",
-                "maximum": ""
+                "maximum": "0.5.0"
             },
 
             "install": {
@@ -141,7 +141,7 @@
             "version": "0.1.1",
             "gaugeVersionSupport": {
                 "minimum": "0.3.0",
-                "maximum": ""
+                "maximum": "0.5.0"
             },
 
             "install": {
