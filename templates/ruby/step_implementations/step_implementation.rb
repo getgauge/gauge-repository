@@ -12,12 +12,12 @@ step 'The word <word> has <count> vowels.' do |word, expectedCount|
 end
 
 step 'Almost all words have vowels <table>' do |wordsTable|
- wordsTable.rows().each do |row|
-   word = row['Word']
-   expectedCount = row['Vowel Count'].to_i
-   actualCount = count_vowels(word)
-   assert_equal(expectedCount, actualCount)
- end
+  for i in (0...wordsTable.rows.length)
+    word = wordsTable[i]['Word']
+    expectedCount = wordsTable[i]['Vowel Count'].to_i
+    actualCount = count_vowels(word)
+    assert_equal(expectedCount, actualCount)
+  end
 end
 
 def count_vowels(string)
