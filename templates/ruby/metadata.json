@@ -3,6 +3,6 @@
   "description": "Gauge template for Ruby plugin",
   "version": "0.0.2",
 
-  "postInstallCmd" : "bundle install",
+  "postInstallCmd" : "ruby create_gemfile.rb && bundle install && rm create_gemfile.rb",
   "postInstallMsg" : "Run specifications with \"gauge specs/\"."
 }
