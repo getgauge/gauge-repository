@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 group :test do
-	gem 'gauge-ruby', '~>0.2.0'
+	gem 'gauge-ruby', '~>0.2.1'
 	gem 'test-unit', '~> 3.0.9'
 	gem 'selenium-webdriver', '~> 2.53.0'
 end
