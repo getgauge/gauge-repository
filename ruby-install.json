@@ -3,7 +3,7 @@
     "description": "Ruby language runner for gauge",
     "versions": [
         {
-            "version": "0.2.2",
+            "version": "0.3.0",
             "gaugeVersionSupport": {
                 "minimum": "0.6.0",
                 "maximum": ""
@@ -17,14 +17,14 @@
 
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge/gauge-ruby/releases/download/v0.2.2/gauge-ruby-0.2.2-windows.x86.zip",
-                    "linux": "https://github.com/getgauge/gauge-ruby/releases/download/v0.2.2/gauge-ruby-0.2.2-linux.x86.zip",
-                    "darwin": "https://github.com/getgauge/gauge-ruby/releases/download/v0.2.2/gauge-ruby-0.2.2-darwin.x86.zip"
+                    "windows": "https://github.com/getgauge/gauge-ruby/releases/download/v0.3.0/gauge-ruby-0.3.0-windows.x86.zip",
+                    "linux": "https://github.com/getgauge/gauge-ruby/releases/download/v0.3.0/gauge-ruby-0.3.0-linux.x86.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ruby/releases/download/v0.3.0/gauge-ruby-0.3.0-darwin.x86.zip"
                 },
                 "x64": {
-                    "windows": "https://github.com/getgauge/gauge-ruby/releases/download/v0.2.2/gauge-ruby-0.2.2-windows.x86_64.zip",
-                    "linux": "https://github.com/getgauge/gauge-ruby/releases/download/v0.2.2/gauge-ruby-0.2.2-linux.x86_64.zip",
-                    "darwin": "https://github.com/getgauge/gauge-ruby/releases/download/v0.2.2/gauge-ruby-0.2.2-darwin.x86_64.zip"
+                    "windows": "https://github.com/getgauge/gauge-ruby/releases/download/v0.3.0/gauge-ruby-0.3.0-windows.x86_64.zip",
+                    "linux": "https://github.com/getgauge/gauge-ruby/releases/download/v0.3.0/gauge-ruby-0.3.0-linux.x86_64.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ruby/releases/download/v0.3.0/gauge-ruby-0.3.0-darwin.x86_64.zip"
                 }
 
             }
