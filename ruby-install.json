@@ -3,10 +3,37 @@
     "description": "Ruby language runner for gauge",
     "versions": [
         {
+            "version": "0.2.2",
+            "gaugeVersionSupport": {
+                "minimum": "0.6.0",
+                "maximum": ""
+            },
+
+            "install": {
+                "windows": [],
+                "linux": [],
+                "darwin": []
+            },
+
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/getgauge/gauge-ruby/releases/download/v0.2.2/gauge-ruby-0.2.2-windows.x86.zip",
+                    "linux": "https://github.com/getgauge/gauge-ruby/releases/download/v0.2.2/gauge-ruby-0.2.2-linux.x86.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ruby/releases/download/v0.2.2/gauge-ruby-0.2.2-darwin.x86.zip"
+                },
+                "x64": {
+                    "windows": "https://github.com/getgauge/gauge-ruby/releases/download/v0.2.2/gauge-ruby-0.2.2-windows.x86_64.zip",
+                    "linux": "https://github.com/getgauge/gauge-ruby/releases/download/v0.2.2/gauge-ruby-0.2.2-linux.x86_64.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ruby/releases/download/v0.2.2/gauge-ruby-0.2.2-darwin.x86_64.zip"
+                }
+
+            }
+        },
+        {
             "version": "0.2.1",
             "gaugeVersionSupport": {
                 "minimum": "0.2.0",
-                "maximum": ""
+                "maximum": "0.5.1"
             },
 
             "install": {
@@ -33,7 +60,7 @@
             "version": "0.2.0",
             "gaugeVersionSupport": {
                 "minimum": "0.2.0",
-                "maximum": ""
+                "maximum": "0.5.1"
             },
 
             "install": {
@@ -60,7 +87,7 @@
             "version": "0.1.1",
             "gaugeVersionSupport": {
                 "minimum": "0.2.0",
-                "maximum": ""
+                "maximum": "0.5.1"
             },
 
             "install": {
@@ -87,7 +114,7 @@
             "version": "0.1.0",
             "gaugeVersionSupport": {
                 "minimum": "0.2.0",
-                "maximum": ""
+                "maximum": "0.5.1"
             },
 
             "install": {
