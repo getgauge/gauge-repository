@@ -4,5 +4,5 @@
   "version": "0.0.3",
 
   "postInstallCmd" : "sh create_gemfile.sh",
-  "postInstallMsg" : "Run specifications with \"gauge specs/\"."
+  "postInstallMsg" : "Run specifications with \"bundle exec gauge specs/\"."
 }
