@@ -4,3 +4,7 @@ if (!version.nil? && version.include?("nightly")) || ENV["GAUGE_SOURCE_BUILD"] =
     v=version.split('.nightly').first
     File.open("Gemfile", 'w') { |file| file.write("gem 'test-unit', :group => [:development, :test]\ngem 'gauge-ruby', '~>#{v}', :github => 'getgauge/gauge-ruby', :ref => 'HEAD', :group => [:development, :test]\n") }
 end
+
+system %w[bundle install]
+
+File.delete __FILE__

@@ -3,6 +3,6 @@
   "description": "Gauge template for Ruby plugin",
   "version": "0.0.4",
 
-  "postInstallCmd" : "ruby -e 'require \"./create_gemfile.rb\"' -e 'system %w[bundle install]' -e 'File.delete \"create_gemfile.rb\"'",
+  "postInstallCmd" : "ruby create_gemfile.rb",
   "postInstallMsg" : "Run specifications with \"bundle exec gauge specs/\"."
 }
