@@ -5,8 +5,35 @@
         {
             "version": "2.1.1",
             "gaugeVersionSupport": {
-                "minimum": "0.3.0",
+                "minimum": "0.7.0",
                 "maximum": ""
+            },
+
+            "install": {
+                "windows": [],
+                "linux": [],
+                "darwin": []
+            },
+
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/getgauge/html-report/releases/download/v3.0.0/html-report-3.0.0-windows.x86.zip",
+                    "linux": "https://github.com/getgauge/html-report/releases/download/v3.0.0/html-report-3.0.0-linux.x86.zip",
+                    "darwin": "https://github.com/getgauge/html-report/releases/download/v3.0.0/html-report-3.0.0-darwin.x86.zip"
+                },
+                "x64": {
+                    "windows": "https://github.com/getgauge/html-report/releases/download/v3.0.0/html-report-3.0.0-windows.x86_64.zip",
+                    "linux": "https://github.com/getgauge/html-report/releases/download/v3.0.0/html-report-3.0.0-linux.x86_64.zip",
+                    "darwin": "https://github.com/getgauge/html-report/releases/download/v3.0.0/html-report-3.0.0-darwin.x86_64.zip"
+                }
+
+            }
+        },
+        {
+            "version": "2.1.1",
+            "gaugeVersionSupport": {
+                "minimum": "0.3.0",
+                "maximum": "0.6.2"
             },
 
             "install": {
