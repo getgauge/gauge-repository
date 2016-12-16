@@ -3,6 +3,8 @@ version=JSON.parse(`gauge -v --machine-readable`)['plugins'].find {|x| x['name']
 if (!version.nil? && version.include?("nightly")) || ENV["GAUGE_SOURCE_BUILD"] =='true'
     v=version.split('.nightly').first
     File.open("Gemfile", 'w') { |file| file.write("gem 'test-unit', :group => [:development, :test]\ngem 'gauge-ruby', '~>#{v}', :github => 'getgauge/gauge-ruby', :ref => 'HEAD', :group => [:development, :test]\n") }
+else
+	File.open("Gemfile", 'w') { |file| file.write("source \"https://rubygems.org\"\n\ngem 'test-unit', :group => [:development, :test]\ngem 'gauge-ruby', '~>#{version}', :group => [:development, :test]\n") }
 end
 
 system %w[bundle install]
