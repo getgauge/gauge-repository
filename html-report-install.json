@@ -3,10 +3,37 @@
     "description": "HTML Report plugin for gauge",
     "versions": [
         {
+            "version": "3.1.0",
+            "gaugeVersionSupport": {
+                "minimum": "0.8.0",
+                "maximum": ""
+            },
+
+            "install": {
+                "windows": [],
+                "linux": [],
+                "darwin": []
+            },
+
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/getgauge/html-report/releases/download/v3.1.0/html-report-3.1.0-windows.x86.zip",
+                    "linux": "https://github.com/getgauge/html-report/releases/download/v3.1.0/html-report-3.1.0-linux.x86.zip",
+                    "darwin": "https://github.com/getgauge/html-report/releases/download/v3.1.0/html-report-3.1.0-darwin.x86.zip"
+                },
+                "x64": {
+                    "windows": "https://github.com/getgauge/html-report/releases/download/v3.1.0/html-report-3.1.0-windows.x86_64.zip",
+                    "linux": "https://github.com/getgauge/html-report/releases/download/v3.1.0/html-report-3.1.0-linux.x86_64.zip",
+                    "darwin": "https://github.com/getgauge/html-report/releases/download/v3.1.0/html-report-3.1.0-darwin.x86_64.zip"
+                }
+
+            }
+        },
+        {
             "version": "3.0.1",
             "gaugeVersionSupport": {
                 "minimum": "0.7.0",
-                "maximum": ""
+                "maximum": "0.7.0"
             },
 
             "install": {
@@ -33,7 +60,7 @@
             "version": "3.0.0",
             "gaugeVersionSupport": {
                 "minimum": "0.7.0",
-                "maximum": ""
+                "maximum": "0.7.0"
             },
 
             "install": {
