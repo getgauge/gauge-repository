@@ -8,7 +8,7 @@ module Driver
     before_suite do
         # init driver from DriverFactory
         # set the "browser" env variable in one of the properties files. check env/default/default.properties
-        @@driver = Selenium::WebDriver.for ENV["browser"]
+        @@driver = Selenium::WebDriver.for ENV["browser"].to_sym
     end
 
     after_suite do
