@@ -1,23 +1,23 @@
 require 'test/unit'
 include Test::Unit::Assertions
 
-@vowels = nil;
+@vowels = nil
 
 step 'Vowels in English language are <vowels>.' do |vowels|
-   @vowels = vowels.scan(/./);
+  @vowels = vowels.scan(/./)
 end
 
-step 'The word <word> has <count> vowels.' do |word, expectedCount|
-  assert_equal(expectedCount.to_i, count_vowels(word))
+step 'The word <word> has <count> vowels.' do |word, expected_count|
+  assert_equal(expected_count.to_i, count_vowels(word))
 end
 
-step 'Almost all words have vowels <table>' do |wordsTable|
-  wordsTable.rows().each do |row|
-   word = row['Word'];
-   expectedCount = row['Vowel Count'].to_i
-   actualCount = count_vowels(word)
-   assert_equal(expectedCount, actualCount)
- end
+step 'Almost all words have vowels <table>' do |words_table|
+  words_table.rows.each do |row|
+    word = row['Word']
+    expected_count = row['Vowel Count'].to_i
+    actual_count = count_vowels(word)
+    assert_equal(expected_count, actual_count)
+  end
 end
 
 def count_vowels(string)

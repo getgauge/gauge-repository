@@ -1,12 +1,30 @@
 require 'json'
-version=JSON.parse(`gauge -v --machine-readable`)['plugins'].find {|x| x['name'] == 'ruby'}['version'] rescue nil
-if (!version.nil? && version.include?("nightly")) || ENV["GAUGE_SOURCE_BUILD"] =='true'
-    v=version.split('.nightly').first
-    File.open("Gemfile", 'w') { |file| file.write("gem 'test-unit', :group => [:development, :test]\ngem 'gauge-ruby', '~>#{v}', :github => 'getgauge/gauge-ruby', :ref => 'HEAD', :group => [:development, :test]\n") }
+plugins = JSON.parse(`gauge -v --machine-readable`)['plugins']
+unless plugins.nil?
+  ruby_plugin = plugins.find do |x|
+    x['name'] == 'ruby'
+  end || {}
+  version = ruby_plugin['version']
+end
+if version.to_s.include?('nightly') || ENV['GAUGE_SOURCE_BUILD'] == 'true'
+  v = version.split('.nightly').first
+  File.open('Gemfile', 'w') do |file|
+    file.write(
+      "gem 'test-unit', group: [:development, :test]\n"\
+      "gem 'gauge-ruby', '~>#{v}', github: 'getgauge/gauge-ruby',"\
+      " ref: 'HEAD', group: [:development, :test]\n"
+    )
+  end
 else
-	File.open("Gemfile", 'w') { |file| file.write("source \"https://rubygems.org\"\n\ngem 'test-unit', :group => [:development, :test]\ngem 'gauge-ruby', '~>#{version}', :group => [:development, :test]\n") }
+  File.open('Gemfile', 'w') do |file|
+    file.write(
+      "source 'https://rubygems.org'\n\n"\
+      "gem 'test-unit', group: [:development, :test]\n"\
+      "gem 'gauge-ruby', '~>#{version}', group: [:development, :test]\n"
+    )
+  end
 end
 
-system %w[bundle install]
+system %w(bundle install)
 
 File.delete __FILE__
