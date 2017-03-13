@@ -15,7 +15,7 @@ source_build = ENV['GAUGE_SOURCE_BUILD'] == 'true'
 if source_build || (!version.nil? && version.include?('nightly'))
   v = version.split('.nightly').first
   File.open('Gemfile', 'w') do |file|
-    gemfile_content <<-eot
+    gemfile_content = <<-eot
     gem 'test-unit', :group => [:development, :test]
     gem 'gauge-ruby', '~>#{v}', :github => 'getgauge/gauge-ruby', :ref => 'HEAD', :group => [:development, :test]
     eot
@@ -23,7 +23,7 @@ if source_build || (!version.nil? && version.include?('nightly'))
   end
 else
   File.open('Gemfile', 'w') do |file|
-    gemfile_content <<-eot
+    gemfile_content = <<-eot
     source "https://rubygems.org"
 
     gem 'test-unit', :group => [:development, :test]
