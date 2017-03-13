@@ -22,12 +22,13 @@ if source_build || (!version.nil? && version.include?('nightly'))
     file.write(gemfile_content)
   end
 else
+  version_string = version.nil? ? "" : ", '~>#{version}'"
   File.open('Gemfile', 'w') do |file|
     gemfile_content = <<-eot
     source "https://rubygems.org"
 
     gem 'test-unit', :group => [:development, :test]
-    gem 'gauge-ruby', '~>#{version}', :group => [:development, :test]
+    gem 'gauge-ruby' #{version_string}, :group => [:development, :test]
     eot
     file.write(gemfile_content)
   end
