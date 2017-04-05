@@ -34,6 +34,6 @@ else
   end
 end
 
-system %w(bundle install --path vendor/bundle)
+system "bundle install --path vendor/bundle"
 
 File.delete __FILE__
