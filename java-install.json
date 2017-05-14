@@ -3,6 +3,32 @@
     "description": "Java language runner for gauge",
     "versions": [
         {
+            "version": "0.6.3",
+            "gaugeVersionSupport": {
+                "minimum": "0.8.0",
+                "maximum": ""
+            },
+
+            "install": {
+                "windows": [],
+                "linux": [],
+                "darwin": []
+            },
+
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/getgauge/gauge-java/releases/download/v0.6.3/gauge-java-0.6.3-windows.x86.zip",
+                    "linux": "https://github.com/getgauge/gauge-java/releases/download/v0.6.3/gauge-java-0.6.3-linux.x86.zip",
+                    "darwin": "https://github.com/getgauge/gauge-java/releases/download/v0.6.3/gauge-java-0.6.3-darwin.x86.zip"
+                },
+                "x64": {
+                    "windows": "https://github.com/getgauge/gauge-java/releases/download/v0.6.3/gauge-java-0.6.3-windows.x86_64.zip",
+                    "linux": "https://github.com/getgauge/gauge-java/releases/download/v0.6.3/gauge-java-0.6.3-linux.x86_64.zip",
+                    "darwin": "https://github.com/getgauge/gauge-java/releases/download/v0.6.3/gauge-java-0.6.3-darwin.x86_64.zip"
+                }
+            }
+        },
+        {
             "version": "0.6.2",
             "gaugeVersionSupport": {
                 "minimum": "0.8.0",
