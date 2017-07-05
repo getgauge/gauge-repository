@@ -7,10 +7,19 @@ module Driver
   end
 
   before_suite do
-    # init driver from DriverFactory
-    # set the "browser" env variable in one of the properties files.
-    # check env/default/default.properties
-    @@driver = Selenium::WebDriver.for ENV['browser'].to_sym
+    # Set the "headless" env variable for running chrome headless
+    # Check env/default/default.properties
+    options = Selenium::WebDriver::Chrome::Options.new
+
+    headless = ENV['headless'] || 'N'
+	
+    if(headless.downcase == 'y')
+        options.add_argument('--headless')
+        options.add_argument('--disable-gpu')
+    end
+
+    # Initialize driver from DriverFactory
+    @@driver = Selenium::WebDriver.for :chrome, options: options
   end
 
   after_suite do

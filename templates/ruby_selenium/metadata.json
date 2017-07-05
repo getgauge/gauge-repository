@@ -3,6 +3,6 @@
   "description": "Gauge template for Ruby plugin and Selenium as driver to interact with a web browser",
   "version": "0.0.1",
 
-  "postInstallCmd" : "bundle install",
+  "postInstallCmd" : "bundle install --path vendor/bundle",
   "postInstallMsg" : "Run specifications with \"bundle exec gauge specs\" in project root."
 }
