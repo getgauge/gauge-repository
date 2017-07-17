@@ -4,5 +4,5 @@
   "version": "0.0.1",
 
   "postInstallCmd" : "bundle install --path vendor/bundle",
-  "postInstallMsg" : "Run specifications with \"bundle exec gauge run specs\" in project root."
+  "postInstallMsg" : "Run specifications with \"bundle exec gauge specs\" in project root."
 }

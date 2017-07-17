@@ -4,5 +4,5 @@
   "version": "0.0.4",
 
   "postInstallCmd" : "ruby create_gemfile.rb",
-  "postInstallMsg" : "Run specifications with \"bundle exec gauge run specs/\"."
+  "postInstallMsg" : "Run specifications with \"bundle exec gauge specs/\"."
 }
