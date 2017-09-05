@@ -1,5 +1,5 @@
 ### Gauge ###
-# failures metadata dir
+# metadata dir
 .gauge
 
 # log files dir
