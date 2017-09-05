@@ -1,5 +1,5 @@
 ### Gauge ###
-# failures metadata dir
+# metadata dir
 .gauge
 
 # log files dir
@@ -10,3 +10,4 @@ reports
 
 # ruby dependencies dir
 vendor
+
