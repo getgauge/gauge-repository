@@ -15,15 +15,15 @@ afterSuite(async function () {
   browser.close();
 });
 
-step("Navigate to Gauge homepage <query>", async function (query) {
+step("Go to Gauge homepage at <query>", async function (query) {
   await page.goto(query);
 });
 
-step("Go to Gauge Get Started Page", async function () {
+step("Go to Get Started page", async function () {
   await page.click(".link-get-started");
 });
 
-step("Display the sub title <title>", async function(title){
+step("Show subtitle <title>", async function(title){
   await page.waitFor('.sub-title');
   const message = await page.$eval('.sub-title', e => e.innerText);
   assert.equal(message, title);
