@@ -5,9 +5,9 @@ This is an executable specification file. This file follows markdown syntax. Eve
 To execute this specification, use
 	npm test
 
-* Navigate to Gauge homepage "http://getgauge.io"
+* Go to Gauge homepage at "http://getgauge.io"
 
 Get Started
 -----------
-* Go to Gauge Get Started Page
-* Display the sub title "Choose your OS & download" 
+* Go to Get Started page
+* Show subtitle "Choose your OS & download" 
