@@ -3,5 +3,5 @@
   "description": "Gauge template for Python plugin",
   "version": "0.0.1",
   "postInstallCmd" : "",
-  "postInstallMsg" : "Run specifications with \"gauge specs/\"."
+  "postInstallMsg" : "Run specifications with \"gauge run specs/\"."
 }
