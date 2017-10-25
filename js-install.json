@@ -3,6 +3,32 @@
     "description": "JavaScript language runner for Gauge",
     "versions": [
         {
+            "version": "2.0.2",
+            "gaugeVersionSupport": {
+                "minimum": "0.9.0",
+                "maximum": ""
+            },
+
+            "install": {
+                "windows": [],
+                "linux": [],
+                "darwin": []
+            },
+
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.2/gauge-js-2.0.2.zip",
+                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.2/gauge-js-2.0.2.zip",
+                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.2/gauge-js-2.0.2.zip"
+                },
+                "x64": {
+                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.2/gauge-js-2.0.2.zip",
+                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.2/gauge-js-2.0.2.zip",
+                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.2/gauge-js-2.0.2.zip"
+                }
+            }
+        },
+        {
             "version": "2.0.1",
             "gaugeVersionSupport": {
                 "minimum": "0.8.0",
