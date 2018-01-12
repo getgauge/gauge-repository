@@ -11,13 +11,16 @@ rescue
 end
 
 source_build = ENV['GAUGE_SOURCE_BUILD'] == 'true'
+gem_branch = !ENV['GAUGE_RUBY_GEM_BRANCH'].nil? ? ENV['GAUGE_RUBY_GEM_BRANCH'] : 'master'
 
 if source_build || (!version.nil? && version.include?('nightly'))
   v = version.split('.nightly').first
   File.open('Gemfile', 'w') do |file|
     gemfile_content = <<-eot
+    source "https://rubygems.org"
+
     gem 'test-unit', :group => [:development, :test]
-    gem 'gauge-ruby', '~>#{v}', :github => 'getgauge/gauge-ruby', :ref => 'HEAD', :group => [:development, :test]
+    gem 'gauge-ruby', '~>#{v}', :github => 'getgauge/gauge-ruby', :branch => '#{gem_branch}', :group => [:development, :test]
     eot
     file.write(gemfile_content)
   end
