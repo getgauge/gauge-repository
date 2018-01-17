@@ -1,0 +1,72 @@
+21:27:32.858 Gauge Install ID: 9d1eb488-9949-4d9a-ae8b-dd323b3154bc
+21:27:34.886 Checking updates...
+21:27:35.659 Failed to download csharp-netstandard-install.json file: Error downloading file: https://downloads.getgauge.io/plugin/csharp-netstandard?l=csharp-netstandard&p=csharp,csharp-netstandard,flash,html-report,java,js,ruby,screenshot,xml-report&o=windows&a=amd64.
+404 Not Found
+21:27:37.064 Runner connection error: Runner with pid 14924 quit unexpectedly(exit status 255).
+21:27:37.064 Error while killing runner: invalid argument
+21:27:37.065 Failed to start gauge API: Runner with pid 14924 quit unexpectedly(exit status 255).
+21:47:19.157 Gauge Install ID: 9d1eb488-9949-4d9a-ae8b-dd323b3154bc
+21:47:20.358 Checking updates...
+21:55:25.553 Gauge Install ID: 9d1eb488-9949-4d9a-ae8b-dd323b3154bc
+22:02:05.595 Gauge Install ID: 9d1eb488-9949-4d9a-ae8b-dd323b3154bc
+22:02:06.677 Checking updates...
+22:02:08.298 Failed to download csharp-netstandard-install.json file: Error downloading file: https://downloads.getgauge.io/plugin/csharp-netstandard?l=csharp-netstandard&p=csharp,csharp-netstandard,flash,html-report,java,js,ruby,screenshot,xml-report&o=windows&a=amd64.
+404 Not Found
+22:02:11.498 No specifications found in specs.
+22:02:11.600 Updates are available. Run `gauge update -c` for more info.
+22:02:29.441 Gauge Install ID: 9d1eb488-9949-4d9a-ae8b-dd323b3154bc
+22:02:30.854 Checking updates...
+22:02:31.362 Failed to download csharp-netstandard-install.json file: Error downloading file: https://downloads.getgauge.io/plugin/csharp-netstandard?l=csharp-netstandard&p=csharp,csharp-netstandard,flash,html-report,java,js,ruby,screenshot,xml-report&o=windows&a=amd64.
+404 Not Found
+22:02:33.700 # Specification Heading
+22:02:33.708 ## Vowel counts in single word
+22:02:33.720 * Vowels in English language are "aeiou".
+
+22:02:33.736 Error Message: Connection closed [127.0.0.1:54521] cause: EOF
+22:02:33.737 Stacktrace: 
+22:02:33.739 Error Message: write tcp 127.0.0.1:54515->127.0.0.1:54521: use of closed network connection
+22:02:33.739 Stacktrace: 
+22:02:33.740 Error Message: write tcp 127.0.0.1:54515->127.0.0.1:54521: use of closed network connection
+22:02:33.740 Stacktrace: 
+22:02:33.746 ## Vowel counts in multiple word
+22:02:33.746 Failed to initialize scenario datastore. Error: write tcp 127.0.0.1:54515->127.0.0.1:54521: use of closed network connection
+22:02:33.751 Error Message: write tcp 127.0.0.1:54515->127.0.0.1:54521: use of closed network connection
+22:02:33.752 Stacktrace: 
+22:02:33.763 Error Message: write tcp 127.0.0.1:54515->127.0.0.1:54521: use of closed network connection
+22:02:33.763 Stacktrace: 
+22:02:34.065 Plugin [Html Report] with pid [35352] has exited
+22:02:34.167 Specifications:	1 executed	0 passed	1 failed	0 skipped
+22:02:34.168 Scenarios:	1 executed	0 passed	1 failed	1 skipped
+22:02:34.169 
+Total time taken: 242ms
+22:02:34.170 Updates are available. Run `gauge update -c` for more info.
+22:04:30.161 Gauge Install ID: 9d1eb488-9949-4d9a-ae8b-dd323b3154bc
+22:04:31.248 Checking updates...
+22:04:32.129 Failed to download csharp-netstandard-install.json file: Error downloading file: https://downloads.getgauge.io/plugin/csharp-netstandard?l=csharp-netstandard&p=csharp,csharp-netstandard,flash,html-report,java,js,ruby,screenshot,xml-report&o=windows&a=amd64.
+404 Not Found
+22:04:37.139 # Specification Heading
+22:04:37.144 ## Vowel counts in single word
+22:04:37.148 * Vowels in English language are "aeiou".
+
+22:04:37.283 * The word "gauge" has "3" vowels.
+
+22:04:37.347 ## Vowel counts in multiple word
+22:04:37.347 * Vowels in English language are "aeiou".
+
+22:04:37.348 * Almost all words have vowels 
+
+   |Word  |Vowel Count|
+   |------|-----------|
+   |Gauge |3          |
+   |Mingle|2          |
+   |Snap  |1          |
+   |GoCD  |1          |
+   |Rhythm|0          |
+22:04:37.616 Plugin [Html Report] with pid [21960] has exited
+22:04:37.716 Specifications:	1 executed	1 passed	0 failed	0 skipped
+22:04:37.716 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+22:04:37.716 
+Total time taken: 428ms
+22:04:37.716 Updates are available. Run `gauge update -c` for more info.
+22:05:18.721 Gauge Install ID: 9d1eb488-9949-4d9a-ae8b-dd323b3154bc
+22:19:22.921 Gauge Install ID: 9d1eb488-9949-4d9a-ae8b-dd323b3154bc

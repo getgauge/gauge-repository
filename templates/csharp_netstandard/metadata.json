@@ -1,0 +1,7 @@
+{
+    "name": "csharp_netstandard",
+    "description": "Gauge template for C# with .NET Standard 2.0",
+    "version": "0.0.1",
+    "postInstallCmd" : "",
+    "postInstallMsg" : "Run specifications with \"gauge run specs/\"."
+}

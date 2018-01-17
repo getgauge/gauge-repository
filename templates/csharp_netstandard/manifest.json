@@ -1,0 +1,6 @@
+{
+  "Language": "csharp-netstandard",
+  "Plugins": [
+    "html-report"
+  ]
+}
