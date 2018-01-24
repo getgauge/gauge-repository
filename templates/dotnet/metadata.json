@@ -1,5 +1,5 @@
 {
-    "name": "csharp_netstandard",
+    "name": "dotnet",
     "description": "Gauge template for C# with .NET Standard 2.0",
     "version": "0.0.1",
     "postInstallCmd" : "",
