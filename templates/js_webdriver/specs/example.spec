@@ -6,6 +6,6 @@ To execute this specification, start Selenium Standalone Server (read http://web
 
 * Go to Gauge homepage at "http://getgauge.io"
 
-# Get Started
+## Get Started
 * Go to Get Started page
 * Show subtitle "Choose your OS & download" 
