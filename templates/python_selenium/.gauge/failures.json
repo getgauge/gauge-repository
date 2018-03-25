@@ -1,0 +1,10 @@
+{
+	"Args": [
+		"run",
+		"--simple-console",
+		"--hide-suggestion"
+	],
+	"FailedItems": [
+		"specs/example.spec:9"
+	]
+}

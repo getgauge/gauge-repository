@@ -1,0 +1,205 @@
+11:13:43.541 Gauge Install ID: a87796bb-a7a8-4b69-a37c-c76b70e5db45
+12:13:31.934 Gauge Install ID: a87796bb-a7a8-4b69-a37c-c76b70e5db45
+12:13:32.397 # Getting Started with Gauge
+12:13:32.397 ## Get Started
+12:13:32.398 * Go to Gauge homepage at "http://getgauge.io"
+
+12:13:32.399 
+Failed Step: Go to Gauge homepage at "http://getgauge.io"
+12:13:32.399 Specification: specs/example.spec:7
+12:13:32.399 Error Message: 'NoneType' object is not callable
+12:13:32.399 Stacktrace: 
+Traceback (most recent call last):
+  File "/Users/sswaroop/Library/Python/2.7/lib/python/site-packages/getgauge/executor.py", line 31, in execute_method
+    func(*params)
+TypeError: 'NoneType' object is not callable
+12:13:32.500 Plugin [Html Report] with pid [11451] has exited
+12:13:32.601 Specifications:	1 executed	0 passed	1 failed	0 skipped
+12:13:32.601 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12:13:32.601 
+Total time taken: 53ms
+12:17:18.909 Gauge Install ID: a87796bb-a7a8-4b69-a37c-c76b70e5db45
+12:17:20.144 Checking updates...
+12:17:20.516 Failed to download html-report-install.json file: Error downloading file: https://downloads.getgauge.io/templates/html-report?l=python&p=html-report,java,js,python,ruby,screenshot&o=darwin&a=amd64.
+404 Not Found
+12:17:21.316 # Getting Started with Gauge
+12:17:21.317 ## Get Started
+12:17:21.318 * Go to Gauge homepage at "http://getgauge.io"
+
+12:17:26.106 * Go to Get Started page
+12:17:28.308 * Show subtitle "Choose your OS & download"
+12:17:29.193 Plugin [Html Report] with pid [11766] has exited
+12:17:29.295 Specifications:	1 executed	1 passed	0 failed	0 skipped
+12:17:29.295 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12:17:29.295 
+Total time taken: 9.074s
+12:17:52.499 Gauge Install ID: a87796bb-a7a8-4b69-a37c-c76b70e5db45
+12:17:53.655 Checking updates...
+12:17:54.424 # Getting Started with Gauge
+12:17:54.425 ## Get Started
+12:17:54.425 * Go to Gauge homepage at "http://getgauge.io"
+
+12:17:56.319 * Go to Get Started page
+12:17:56.622 * Show subtitle "Choose your OS & download"
+12:17:56.820 Plugin [Html Report] with pid [11851] has exited
+12:17:56.920 Specifications:	1 executed	1 passed	0 failed	0 skipped
+12:17:56.920 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12:17:56.920 
+Total time taken: 3.822s
+12:18:15.451 Gauge Install ID: a87796bb-a7a8-4b69-a37c-c76b70e5db45
+12:18:17.363 # Getting Started with Gauge
+12:18:17.364 ## Get Started
+12:18:17.364 * Go to Gauge homepage at "http://getgauge.io"
+
+12:18:17.412 Checking updates...
+12:18:17.824 Failed to download html-report-install.json file: Error downloading file: https://downloads.getgauge.io/templates/html-report?l=python&p=html-report,java,js,python,ruby,screenshot&o=darwin&a=amd64.
+404 Not Found
+12:18:19.223 * Go to Get Started page
+12:18:19.491 * Show subtitle "Choose your OS & download"
+12:18:19.687 Plugin [Html Report] with pid [11926] has exited
+12:18:19.788 Specifications:	1 executed	1 passed	0 failed	0 skipped
+12:18:19.788 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12:18:19.788 
+Total time taken: 3.74s
+12:18:54.368 Gauge Install ID: a87796bb-a7a8-4b69-a37c-c76b70e5db45
+12:18:55.786 Checking updates...
+12:18:56.207 Failed to download html-report-install.json file: Error downloading file: https://downloads.getgauge.io/templates/html-report?l=python&p=html-report,java,js,python,ruby,screenshot&o=darwin&a=amd64.
+404 Not Found
+12:19:36.962 Gauge Install ID: a87796bb-a7a8-4b69-a37c-c76b70e5db45
+12:19:38.178 Checking updates...
+12:19:40.243 # Getting Started with Gauge
+12:19:40.246 ## Get Started
+12:19:40.251 * Go to Gauge homepage at "http://getgauge.io"
+
+12:19:42.237 * Go to Get Started page
+12:19:42.562 * Show subtitle "Choose your OS & download"
+12:21:13.171 Gauge Install ID: a87796bb-a7a8-4b69-a37c-c76b70e5db45
+12:21:14.493 Checking updates...
+12:21:15.117 # Getting Started with Gauge
+12:21:15.118 ## Get Started
+12:21:15.118 * Go to Gauge homepage at "http://getgauge.io"
+
+12:21:17.420 * Go to Get Started page
+12:21:17.702 * Show subtitle "Choose your OS & download"
+12:21:17.881 Plugin [Html Report] with pid [12339] has exited
+12:21:17.983 Specifications:	1 executed	1 passed	0 failed	0 skipped
+12:21:17.983 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12:21:17.983 
+Total time taken: 4.215s
+12:22:17.058 Gauge Install ID: a87796bb-a7a8-4b69-a37c-c76b70e5db45
+12:22:18.375 Checking updates...
+12:22:18.732 Failed to download html-report-install.json file: Error downloading file: https://downloads.getgauge.io/templates/html-report?l=python&p=html-report,java,js,python,ruby,screenshot&o=darwin&a=amd64.
+404 Not Found
+12:22:20.331 # Getting Started with Gauge
+12:22:20.334 ## Get Started
+12:22:20.338 * Go to Gauge homepage at "http://getgauge.io"
+
+12:22:21.350 Failed to download screenshot-install.json file: Error downloading file: https://downloads.getgauge.io/templates/screenshot?l=python&p=html-report,java,js,python,ruby,screenshot&o=darwin&a=amd64.
+404 Not Found
+12:22:22.256 * Go to Get Started page
+12:22:22.545 * Show subtitle "Choose your OS & download"
+12:22:32.151 Plugin [Html Report] with pid [12483] has exited
+12:22:32.252 Specifications:	1 executed	1 passed	0 failed	0 skipped
+12:22:32.252 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12:22:32.252 
+Total time taken: 14.581s
+12:22:54.529 Gauge Install ID: a87796bb-a7a8-4b69-a37c-c76b70e5db45
+12:22:55.707 Checking updates...
+12:22:56.061 Failed to download html-report-install.json file: Error downloading file: https://downloads.getgauge.io/templates/html-report?l=python&p=html-report,java,js,python,ruby,screenshot&o=darwin&a=amd64.
+404 Not Found
+12:22:56.471 # Getting Started with Gauge
+12:22:56.472 ## Get Started
+12:22:56.472 * Go to Gauge homepage at "http://getgauge.io"
+
+12:22:58.253 * Go to Get Started page
+12:22:58.533 * Show subtitle "Choose your OS & download"
+12:22:58.770 Plugin [Html Report] with pid [12586] has exited
+12:22:58.871 Specifications:	1 executed	1 passed	0 failed	0 skipped
+12:22:58.871 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12:22:58.871 
+Total time taken: 3.732s
+12:23:29.345 Gauge Install ID: a87796bb-a7a8-4b69-a37c-c76b70e5db45
+12:23:30.659 Checking updates...
+12:23:31.010 Failed to download html-report-install.json file: Error downloading file: https://downloads.getgauge.io/templates/html-report?l=python&p=html-report,java,js,python,ruby,screenshot&o=darwin&a=amd64.
+404 Not Found
+12:23:31.312 # Getting Started with Gauge
+12:23:31.313 ## Get Started
+12:23:31.313 * Go to Gauge homepage at "http://getgauge.io"
+
+12:23:33.381 * Go to Get Started page
+12:23:33.401 Failed to download screenshot-install.json file: Error downloading file: https://downloads.getgauge.io/templates/screenshot?l=python&p=html-report,java,js,python,ruby,screenshot&o=darwin&a=amd64.
+404 Not Found
+12:23:33.662 * Show subtitle "Choose your OS & download"
+12:23:33.900 Plugin [Html Report] with pid [12682] has exited
+12:23:34.001 Specifications:	1 executed	1 passed	0 failed	0 skipped
+12:23:34.001 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12:23:34.001 
+Total time taken: 4.038s
+12:23:48.108 Gauge Install ID: a87796bb-a7a8-4b69-a37c-c76b70e5db45
+12:23:49.826 Checking updates...
+12:23:50.027 # Getting Started with Gauge
+12:23:50.028 ## Get Started
+12:23:50.028 * Go to Gauge homepage at "http://getgauge.io"
+
+12:23:52.127 * Go to Get Started page
+12:23:52.388 * Show subtitle "Choose your OS & download"
+12:23:52.590 Plugin [Html Report] with pid [12772] has exited
+12:23:52.691 Specifications:	1 executed	1 passed	0 failed	0 skipped
+12:23:52.691 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12:23:52.691 
+Total time taken: 3.98s
+12:24:03.373 Gauge Install ID: a87796bb-a7a8-4b69-a37c-c76b70e5db45
+12:24:04.826 Checking updates...
+12:24:05.180 Failed to download html-report-install.json file: Error downloading file: https://downloads.getgauge.io/templates/html-report?l=python&p=html-report,java,js,python,ruby,screenshot&o=darwin&a=amd64.
+404 Not Found
+12:24:05.313 # Getting Started with Gauge
+12:24:05.313 ## Get Started
+12:24:05.314 * Go to Gauge homepage at "http://getgauge.io"
+
+12:24:07.100 * Go to Get Started page
+12:24:07.374 * Show subtitle "Choose your OS & download"
+12:24:07.405 
+Failed Step: Show subtitle "Choose your OS & download"
+12:24:07.405 Specification: specs/example.spec:11
+12:24:07.405 Error Message: Exception occurred
+12:24:07.405 Stacktrace: 
+Traceback (most recent call last):
+  File "/Users/sswaroop/Library/Python/2.7/lib/python/site-packages/getgauge/executor.py", line 31, in execute_method
+    func(*params)
+  File "/Users/sswaroop/work/gauge-repository/templates/python_selenium/step_impl/get_started.py", line 7, in show_subtitle
+    assert Driver.driver.find_element_by_class_name("sub-title").text != arg1
+AssertionError
+12:24:07.588 Plugin [Html Report] with pid [12848] has exited
+12:24:07.669 Failed to download screenshot-install.json file: Error downloading file: https://downloads.getgauge.io/templates/screenshot?l=python&p=html-report,java,js,python,ruby,screenshot&o=darwin&a=amd64.
+404 Not Found
+12:24:07.688 Specifications:	1 executed	0 passed	1 failed	0 skipped
+12:24:07.688 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12:24:07.688 
+Total time taken: 3.707s
+12:24:27.418 Gauge Install ID: a87796bb-a7a8-4b69-a37c-c76b70e5db45
+12:24:27.420 Gauge Install ID: a87796bb-a7a8-4b69-a37c-c76b70e5db45
+12:24:28.686 Checking updates...
+12:24:29.097 Failed to download html-report-install.json file: Error downloading file: https://downloads.getgauge.io/templates/html-report?l=python&p=html-report,java,js,python,ruby,screenshot&o=darwin&a=amd64.
+404 Not Found
+12:24:29.403 # Getting Started with Gauge
+12:24:29.404 ## Get Started
+12:24:29.404 * Go to Gauge homepage at "http://getgauge.io"
+
+12:24:31.304 * Go to Get Started page
+12:24:31.570 * Show subtitle "Choose your OS & download"
+12:24:31.595 
+Failed Step: Show subtitle "Choose your OS & download"
+12:24:31.595 Specification: specs/example.spec:11
+12:24:31.596 Error Message: Exception occurred
+12:24:31.596 Stacktrace: 
+Traceback (most recent call last):
+  File "/Users/sswaroop/Library/Python/2.7/lib/python/site-packages/getgauge/executor.py", line 31, in execute_method
+    func(*params)
+  File "/Users/sswaroop/work/gauge-repository/templates/python_selenium/step_impl/get_started.py", line 7, in show_subtitle
+    assert Driver.driver.find_element_by_class_name("sub-title").text == "arg1"
+AssertionError
+12:24:31.773 Plugin [Html Report] with pid [12930] has exited
+12:24:31.874 Specifications:	1 executed	0 passed	1 failed	0 skipped
+12:24:31.874 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12:24:31.874 
+Total time taken: 3.836s

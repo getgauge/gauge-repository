@@ -1,0 +1,279 @@
+
+	
+	
+  <!doctype html>
+  <html><head>
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+    <meta charset="utf-8" />
+    <title>Gauge Test Results</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+  <main class="main-container">
+  <div class="container">
+
+	
+  <div class="report-overview failed">
+    <ul>
+      <li><span class="value">1</span><span class="txt">Failed</span></li>
+      <span class="sep"></span>
+      <li><span class="value">0</span><span class="txt">Passed</span></li>
+      <span class="sep"></span>
+      <li><span class="value">0</span><span class="txt">Skipped</span></li>
+    </ul>
+    <div class="actions">
+      <a class="btn" href="#" id="collapse-all">Collapse All</a>
+      <a class="btn" href="#" id="expand-all">Expand All</a>
+    </div>
+  </div>
+
+	
+	
+  
+    <div class="specifications">
+    
+      
+  
+	
+  <div class="details">
+    <header>
+      <div class="collapsible spec-head-wrapper  fail">
+        <h3 class="spec-head" title="/Users/sswaroop/work/gauge-repository/templates/python_selenium/specs/example.spec">Getting Started with Gauge</h3>
+      </div>
+
+	</header>
+	<div class="specItemsContainer ">
+	
+    
+
+    <div class="content">
+    
+  
+
+      
+        
+	
+  <div class='scenario-container failed'>
+    
+
+	
+  <div class="scenario-head fail">
+    <h3 class="head borderBottom">Get Started</h3>
+
+	</div>
+	
+
+  
+    <div class='context-step'>
+      
+  
+    
+  
+  <div class='step'>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Go to Gauge homepage at 
+      </span>
+    
+  
+    
+      <span class='parameter'>"http://getgauge.io"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+    </div>
+  
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Go to Get Started page
+      </span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  <div class='step-info failed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Show subtitle 
+      </span>
+    
+  
+    
+      <span class='parameter'>"Choose your OS &amp; download"</span>
+    
+  
+  </div>
+
+  
+  
+    
+        
+  <div class="error-container failed">
+    <div class="exception-container">
+        <div class="exception">
+          <h4 class="error-message">
+            <pre>Exception occurred</pre>
+          </h4>
+          <pre class="stacktrace">Traceback (most recent call last):<br/>  File &#34;/Users/sswaroop/Library/Python/2.7/lib/python/site-packages/getgauge/executor.py&#34;, line 31, in execute_method<br/>    func(*params)<br/>  File &#34;/Users/sswaroop/work/gauge-repository/templates/python_selenium/step_impl/get_started.py&#34;, line 7, in show_subtitle<br/>    assert Driver.driver.find_element_by_class_name(&#34;sub-title&#34;).text == &#34;arg1&#34;<br/>AssertionError<br/></pre>
+        </div>
+        
+    </div>
+  </div>
+
+    
+  
+  
+	
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+  
+
+	
+	</div>
+
+      
+
+    </div>
+    </div>
+
+    
+    </div>
+  
+
+    
+    </div>
+  
+ 	</div>
+	</main>
+	
+    <script>
+      (() => {
+        let specs = document.getElementsByClassName("spec-head-wrapper");
+        let parent = (s) => s.parentNode.parentNode.getElementsByClassName('specItemsContainer')[0];
+        let forEach = (a, fn) => Array.prototype.forEach.call(a, fn);
+        forEach(specs, (s) => {
+          s.addEventListener('click', () => {
+            s.classList.toggle('collapsed');
+            parent(s).classList.toggle('collapsed');
+          });
+        });
+        forEach(document.getElementsByClassName('concept'), (c) => {
+          c.addEventListener('click', () => {
+            c.classList.toggle('collapsed');
+            forEach(c.parentNode.getElementsByClassName('concept-steps'), (cs) => cs.classList.toggle('collapsed'));
+          });
+        });
+        document.getElementById('expand-all').addEventListener('click', () => {
+          forEach(document.getElementsByClassName("spec-head-wrapper"), (s) => {
+            s.classList.remove('collapsed');
+            parent(s).classList.remove('collapsed');
+          });
+        });
+        document.getElementById('collapse-all').addEventListener('click', () => {
+          forEach(document.getElementsByClassName("spec-head-wrapper"), (s) => {
+            s.classList.add('collapsed');
+            parent(s).classList.add('collapsed');
+          });
+        });
+        forEach(document.getElementsByClassName('specItemsContainer'), (s) => {
+          forEach(s.getElementsByClassName('row-selector'), (tr) => tr.addEventListener('click', () =>{
+            forEach(s.getElementsByClassName('row-selector'), (tr) => tr.classList.remove('selected'));
+            tr.classList.add('selected');
+            let scenarios = s.getElementsByClassName('scenario-container');
+            forEach(scenarios, (sc) => {
+              if(sc.dataset.tablerow === tr.dataset.rowindex)
+                sc.classList.remove('hidden');
+              else
+                sc.classList.add('hidden');
+            });
+          }));
+          // show the first failure
+          var failedRow = s.querySelector('.row-selector.failed');
+          if(failedRow)
+            failedRow.click();
+        });
+      })();
+    </script>
+    </body>
+  </html>
+
