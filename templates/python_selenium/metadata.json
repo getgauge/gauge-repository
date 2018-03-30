@@ -1,8 +1,6 @@
 {
     "name": "python_selenium",
     "description": "Gauge template for Python plugin and Selenium as driver to interact with a web browser",
-    "version": "0.0.1",
-  
+    "version": "0.0.2",
     "postInstallMsg" : "Run specifications with \"gauge run specs\" in project root."
-  }
-  
+}
