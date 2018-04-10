@@ -5,7 +5,7 @@
         {
             "version": "0.10.3",
             "gaugeVersionSupport": {
-                "minimum": "0.9.8",
+                "minimum": "0.9.7",
                 "maximum": ""
             },
             "install": {
