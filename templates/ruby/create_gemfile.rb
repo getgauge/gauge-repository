@@ -38,6 +38,6 @@ else
 end
 
 bundle_path = ENV['GAUGE_BUNDLER_CACHE_PATH'] || 'vendor/bundle'
-system "bundle install --path #{bundle_path}"
+system "bundle install --path=#{bundle_path}"
 
 File.delete __FILE__
