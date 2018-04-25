@@ -37,7 +37,11 @@ else
   end
 end
 
-bundle_path = ENV['GAUGE_BUNDLER_CACHE_PATH'] || 'vendor/bundle'
-system "bundle install --path=#{bundle_path}"
+# bundle_path = ENV['GAUGE_BUNDLER_CACHE_PATH'] || 'vendor/bundle'
+# system "bundle install --path=#{bundle_path}"
+
+# do not cache in vendor/bundle, let users set $BUNDLE_PATH or $GEM_HOME
+# ref http://bundler.io/v1.2/bundle_install.html
+system "bundle install"
 
 File.delete __FILE__
