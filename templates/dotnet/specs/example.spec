@@ -5,7 +5,7 @@ Every heading in this file denotes a scenario. Every bulleted point denotes a st
 
 To execute this specification, run
 
-    gauge specs
+    gauge run specs
 
 
 * Vowels in English language are "aeiou".
