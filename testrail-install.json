@@ -1,0 +1,30 @@
+{
+    "name": "testrail",
+    "description": "Report plugin to upload test results to a TestRail instance",
+    "versions": [
+        {
+            "version": "0.0.1",
+            "gaugeVersionSupport": {
+                "minimum": "0.9.7",
+                "maximum": ""
+            },
+            "install": {
+                "windows": [],
+                "linux": [],
+                "darwin": []
+            },
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/ajoecker/gauge-testrail/releases/download/v0.0.1/testrail-0.0.1.zip",  
+                    "linux": "https://github.com/ajoecker/gauge-testrail/releases/download/v0.0.1/testrail-0.0.1.zip",
+                    "darwin": "https://github.com/ajoecker/gauge-testrail/releases/download/v0.0.1/testrail-0.0.1.zip"
+                },
+                "x64": {
+                    "windows": "https://github.com/ajoecker/gauge-testrail/releases/download/v0.0.1/testrail-0.0.1.zip",
+                    "linux": "https://github.com/ajoecker/gauge-testrail/releases/download/v0.0.1/testrail-0.0.1.zip",
+                    "darwin": "https://github.com/ajoecker/gauge-testrail/releases/download/v0.0.1/testrail-0.0.1.zip"
+                }
+            }
+        }
+    ]
+}
