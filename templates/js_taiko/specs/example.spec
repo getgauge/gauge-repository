@@ -4,8 +4,9 @@ This is an executable specification file. This file follows markdown syntax. Eve
 To execute this specification, use
 	npm test
 
-* Go to Gauge homepage at "http://getgauge.io"
+* Go to Gauge homepage at "http://gauge.org"
 
 ## Get Started
 * Go to Get Started page
-* Show subtitle "Choose your OS & download" 
+* Click on Zip tab
+* Check "Create a new project" exists
