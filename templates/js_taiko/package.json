@@ -6,6 +6,6 @@
     "test": "gauge run specs/"
   },
   "dependencies": {
-    "taiko": "^0.0.8"
+    "taiko": "^0.1.0"
   }
 }

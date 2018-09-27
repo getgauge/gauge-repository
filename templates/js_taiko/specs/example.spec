@@ -4,9 +4,8 @@ This is an executable specification file. This file follows markdown syntax. Eve
 To execute this specification, use
 	npm test
 
-* Go to Gauge homepage at "http://gauge.org"
+## Search Google
 
-## Get Started
-* Go to Get Started page
-* Click on Zip tab
-* Check "Create a new project" exists
+* Goto Google's search page
+* Search for "github Taiko"
+* Page contains "getgauge/taiko"

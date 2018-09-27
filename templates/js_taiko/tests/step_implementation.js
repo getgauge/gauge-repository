@@ -1,16 +1,21 @@
 /* globals gauge*/
 "use strict";
-const { openBrowser, closeBrowser, goto, click, text } = require('taiko');
+const { openBrowser,write, closeBrowser, goto, press,text, contains } = require('taiko');
 const assert = require("assert");
 
 beforeSuite(async () => openBrowser());
 
 afterSuite(async () => closeBrowser());
 
-step("Go to Gauge homepage at <query>", async query => goto(query));
+step("Goto Google's search page", async () => goto('http://google.com'));
 
-step("Go to Get Started page", async () => click("Get Started"));
+step("Search for <query>", async (query) => {
+    await write(query);
+    await press('Enter');
+})
 
-step("Click on Zip tab", async () => assert.ok(await click('ZIP')));
+step("Page contains <content>", async (content) => {
+    assert.ok(await text(contains(content)).exists());
+});
 
-step("Check <heading> exists", async (heading) => assert.ok(await text(heading).exists()));
+
