@@ -1,42 +1,21 @@
 /* globals gauge*/
-
 "use strict";
+const { openBrowser,write, closeBrowser, goto, press,text, contains } = require('taiko');
+const assert = require("assert");
 
-var assert = require("assert");
+beforeSuite(async () => openBrowser());
 
-var vowels = ["a", "e", "i", "o", "u"];
+afterSuite(async () => closeBrowser());
 
-var numberOfVowels = function (word) {
-  var vowelArr = word.split("").filter(function (elem) { return vowels.indexOf(elem) > -1; });
-  return vowelArr.length;
-};
+step("Goto Google's search page", async () => goto('http://google.com'));
 
-// --------------------------
-// Gauge step implementations
-// --------------------------
+step("Search for <query>", async (query) => {
+    await write(query);
+    await press('Enter');
+})
 
-step("Vowels in English language are <vowels>.", function(vowelsGiven) {
-  assert.equal(vowelsGiven, vowels.join(""));
+step("Page contains <content>", async (content) => {
+    assert.ok(await text(contains(content)).exists());
 });
 
-step("The word <word> has <number> vowels.", function(word, number) {
-  assert.equal(number, numberOfVowels(word));
-});
 
-step("Almost all words have vowels <table>", function(table) {
-  table.rows.forEach(function (row) {
-    assert.equal(numberOfVowels(row.cells[0]), parseInt(row.cells[1]));
-  });
-});
-
-// ---------------
-// Execution Hooks
-// ---------------
-
-beforeScenario(function () {
-  assert.equal(vowels.join(""), "aeiou");
-});
-
-beforeScenario(function () {
-  assert.equal(vowels[0], "a");
-}, { tags: [ "single word" ]});
