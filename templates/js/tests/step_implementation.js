@@ -2,8 +2,9 @@
 "use strict";
 const { openBrowser,write, closeBrowser, goto, press,text, contains } = require('taiko');
 const assert = require("assert");
+const headless = process.env.headless_chrome.toLowerCase() == 'true' ? true : false;
 
-beforeSuite(async () => openBrowser());
+beforeSuite(async () => openBrowser({ headless: headless }));
 
 afterSuite(async () => closeBrowser());
 
