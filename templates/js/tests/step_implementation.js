@@ -16,7 +16,7 @@ step("Search for <query>", async (query) => {
 })
 
 step("Page contains <content>", async (content) => {
-    assert.equal('Exists', await text(contains(content)).exists());
+    assert.equal('Exists', (await text(contains(content)).exists()).description);
 });
 
 
