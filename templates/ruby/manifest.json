@@ -1,6 +1,7 @@
 {
   "Language": "ruby",
   "Plugins": [
-    "html-report"
+    "html-report",
+    "screenshot"
   ]
 }
