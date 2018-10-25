@@ -1,6 +1,6 @@
 {
-  "name": "js_taiko",
-  "description": "Gauge template for Javascript and Taiko",
+  "name": "js_simple",
+  "description": "Gauge template for Javascript",
   "version": "0.0.1",
 
   "postInstallCmd" : "npm install",

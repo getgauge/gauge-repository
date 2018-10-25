@@ -39,16 +39,16 @@
             },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/ajoecker/gauge-testrail/releases/download/v0.0.2/testrail-0.0.1.zip",  
-                    "linux": "https://github.com/ajoecker/gauge-testrail/releases/download/v0.0.2/testrail-0.0.1.zip",
-                    "darwin": "https://github.com/ajoecker/gauge-testrail/releases/download/v0.0.2/testrail-0.0.1.zip"
+                    "windows": "https://github.com/ajoecker/gauge-testrail/releases/download/v0.0.1/testrail-0.0.1.zip",  
+                    "linux": "https://github.com/ajoecker/gauge-testrail/releases/download/v0.0.1/testrail-0.0.1.zip",
+                    "darwin": "https://github.com/ajoecker/gauge-testrail/releases/download/v0.0.1/testrail-0.0.1.zip"
                 },
                 "x64": {
-                    "windows": "https://github.com/ajoecker/gauge-testrail/releases/download/v0.0.2/testrail-0.0.1.zip",
-                    "linux": "https://github.com/ajoecker/gauge-testrail/releases/download/v0.0.2/testrail-0.0.1.zip",
-                    "darwin": "https://github.com/ajoecker/gauge-testrail/releases/download/v0.0.2/testrail-0.0.1.zip"
+                    "windows": "https://github.com/ajoecker/gauge-testrail/releases/download/v0.0.1/testrail-0.0.1.zip",
+                    "linux": "https://github.com/ajoecker/gauge-testrail/releases/download/v0.0.1/testrail-0.0.1.zip",
+                    "darwin": "https://github.com/ajoecker/gauge-testrail/releases/download/v0.0.1/testrail-0.0.1.zip"
                 }
             }
-
+        }
     ]
 }
