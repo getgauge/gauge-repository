@@ -1,7 +1,6 @@
 {
   "Language": "go",
   "Plugins": [
-    "html-report",
-    "screenshot"
+    "html-report"
   ]
 }

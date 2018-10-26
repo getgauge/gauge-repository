@@ -1,7 +1,6 @@
 {
   "Language": "python",
   "Plugins": [
-    "html-report",
-    "screenshot"
+    "html-report"
   ]
 }

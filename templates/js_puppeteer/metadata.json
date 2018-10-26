@@ -1,7 +1,7 @@
 {
   "name": "js_puppeteer",
   "description": "Gauge template for Javascript and puppeteer (Chrome Dev Tools Protocol)",
-  "version": "0.0.3",
+  "version": "0.0.4",
 
   "postInstallCmd" : "npm install",
   "postInstallMsg" : "Run specifications with \"npm test\" in project root."

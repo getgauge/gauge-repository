@@ -1,7 +1,6 @@
 {
   "Language": "dotnet",
   "Plugins": [
-    "html-report",
-    "screenshot"
+    "html-report"
   ]
 }
