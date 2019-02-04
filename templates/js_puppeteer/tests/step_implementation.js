@@ -20,11 +20,11 @@ step("Go to Gauge homepage at <query>", async function (query) {
 });
 
 step("Go to Get Started page", async function () {
-  await page.click(".link-get-started");
+  await page.click(".cta-primary");
 });
 
 step("Show subtitle <title>", async function(title){
-  await page.waitFor('.sub-title');
-  const message = await page.$eval('.sub-title', e => e.innerText);
-  assert.equal(message, title);
+  await page.waitFor('.page-header h1');
+  const message = await page.$eval('.page-header h1', e => e.innerText);
+  assert.strictEqual(message, title);
 });

@@ -8,4 +8,4 @@ To execute this specification, use
 
 ## Get Started
 * Go to Get Started page
-* Show subtitle "Choose your OS & download" 
+* Show subtitle "Get Started With Gauge"
