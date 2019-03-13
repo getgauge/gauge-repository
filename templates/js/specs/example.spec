@@ -4,8 +4,8 @@ This is an executable specification file. This file follows markdown syntax. Eve
 To execute this specification, use
 	npm test
 
-## Search Google
+## Search Taiko Repository
 
-* Goto Google's search page
-* Search for "github Taiko"
+* Goto getgauge github page
+* Search for "Taiko"
 * Page contains "getgauge/taiko"
