@@ -1,7 +1,7 @@
 {
   "name": "js",
   "description": "Gauge template for Javascript and Taiko",
-  "version": "0.0.11",
+  "version": "0.0.12",
 
   "postInstallCmd" : "npm install",
   "postInstallMsg" : "Run specifications with \"npm test\" in project root."
