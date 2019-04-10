@@ -1,0 +1,28 @@
+apply plugin: 'java'
+apply plugin: 'gauge'
+
+group 'foo'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.thoughtworks.gauge.gradle:gauge-gradle-plugin:1.7.3'
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.thoughtworks.gauge:gauge-java:0.7.1'
+    testCompile group: 'org.assertj', name: 'assertj-core', version: '3.8.0'
+}

@@ -1,0 +1,8 @@
+{
+    "name": "java_gradle",
+    "description": "Gauge template for Java plugin with Gradle as Build tool",
+    "version": "0.0.1",
+
+    "postInstallCmd" : "./gradlew clean build",
+    "postInstallMsg" : "Run specifications with \"./gradlew gauge\" in project root."
+  }
