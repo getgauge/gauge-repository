@@ -1,4 +1,4 @@
-package foo;
+package example;
 
 import com.thoughtworks.gauge.Step;
 import com.thoughtworks.gauge.Table;

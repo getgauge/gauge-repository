@@ -1,7 +1,7 @@
 apply plugin: 'java'
 apply plugin: 'gauge'
 
-group 'foo'
+group 'Gradle_example'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
