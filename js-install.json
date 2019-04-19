@@ -15,14 +15,14 @@
             },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.3.4/gauge-js-2.3.4.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.3.4/gauge-js-2.3.4.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.3.4/gauge-js-2.3.4.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v2.3.4/gauge-js-2.3.4.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v2.3.4/gauge-js-2.3.4.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v2.3.4/gauge-js-2.3.4.zip"
                 },
                 "x64": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.3.4/gauge-js-2.3.4.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.3.4/gauge-js-2.3.4.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.3.4/gauge-js-2.3.4.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v2.3.4/gauge-js-2.3.4.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v2.3.4/gauge-js-2.3.4.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v2.3.4/gauge-js-2.3.4.zip"
                 }
             }
         },
@@ -39,14 +39,14 @@
             },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.3.2/gauge-js-2.3.2.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.3.2/gauge-js-2.3.2.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.3.2/gauge-js-2.3.2.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v2.3.2/gauge-js-2.3.2.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v2.3.2/gauge-js-2.3.2.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v2.3.2/gauge-js-2.3.2.zip"
                 },
                 "x64": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.3.2/gauge-js-2.3.2.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.3.2/gauge-js-2.3.2.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.3.2/gauge-js-2.3.2.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v2.3.2/gauge-js-2.3.2.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v2.3.2/gauge-js-2.3.2.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v2.3.2/gauge-js-2.3.2.zip"
                 }
             }
         },
@@ -63,14 +63,14 @@
             },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.3.1/gauge-js-2.3.1.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.3.1/gauge-js-2.3.1.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.3.1/gauge-js-2.3.1.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v2.3.1/gauge-js-2.3.1.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v2.3.1/gauge-js-2.3.1.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v2.3.1/gauge-js-2.3.1.zip"
                 },
                 "x64": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.3.1/gauge-js-2.3.1.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.3.1/gauge-js-2.3.1.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.3.1/gauge-js-2.3.1.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v2.3.1/gauge-js-2.3.1.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v2.3.1/gauge-js-2.3.1.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v2.3.1/gauge-js-2.3.1.zip"
                 }
             }
         },
@@ -87,14 +87,14 @@
             },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.3.0/gauge-js-2.3.0.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.3.0/gauge-js-2.3.0.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.3.0/gauge-js-2.3.0.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v2.3.0/gauge-js-2.3.0.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v2.3.0/gauge-js-2.3.0.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v2.3.0/gauge-js-2.3.0.zip"
                 },
                 "x64": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.3.0/gauge-js-2.3.0.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.3.0/gauge-js-2.3.0.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.3.0/gauge-js-2.3.0.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v2.3.0/gauge-js-2.3.0.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v2.3.0/gauge-js-2.3.0.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v2.3.0/gauge-js-2.3.0.zip"
                 }
             }
         },
@@ -111,14 +111,14 @@
             },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.2.0/gauge-js-2.2.0.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.2.0/gauge-js-2.2.0.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.2.0/gauge-js-2.2.0.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v2.2.0/gauge-js-2.2.0.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v2.2.0/gauge-js-2.2.0.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v2.2.0/gauge-js-2.2.0.zip"
                 },
                 "x64": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.2.0/gauge-js-2.2.0.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.2.0/gauge-js-2.2.0.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.2.0/gauge-js-2.2.0.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v2.2.0/gauge-js-2.2.0.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v2.2.0/gauge-js-2.2.0.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v2.2.0/gauge-js-2.2.0.zip"
                 }
             }
         },
@@ -135,14 +135,14 @@
             },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.1.0/gauge-js-2.1.0.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.1.0/gauge-js-2.1.0.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.1.0/gauge-js-2.1.0.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v2.1.0/gauge-js-2.1.0.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v2.1.0/gauge-js-2.1.0.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v2.1.0/gauge-js-2.1.0.zip"
                 },
                 "x64": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.1.0/gauge-js-2.1.0.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.1.0/gauge-js-2.1.0.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.1.0/gauge-js-2.1.0.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v2.1.0/gauge-js-2.1.0.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v2.1.0/gauge-js-2.1.0.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v2.1.0/gauge-js-2.1.0.zip"
                 }
             }
         },
@@ -159,14 +159,14 @@
             },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.3/gauge-js-2.0.3.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.3/gauge-js-2.0.3.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.3/gauge-js-2.0.3.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v2.0.3/gauge-js-2.0.3.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v2.0.3/gauge-js-2.0.3.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v2.0.3/gauge-js-2.0.3.zip"
                 },
                 "x64": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.3/gauge-js-2.0.3.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.3/gauge-js-2.0.3.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.3/gauge-js-2.0.3.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v2.0.3/gauge-js-2.0.3.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v2.0.3/gauge-js-2.0.3.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v2.0.3/gauge-js-2.0.3.zip"
                 }
             }
         },
@@ -183,14 +183,14 @@
             },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.2/gauge-js-2.0.2.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.2/gauge-js-2.0.2.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.2/gauge-js-2.0.2.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v2.0.2/gauge-js-2.0.2.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v2.0.2/gauge-js-2.0.2.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v2.0.2/gauge-js-2.0.2.zip"
                 },
                 "x64": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.2/gauge-js-2.0.2.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.2/gauge-js-2.0.2.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.2/gauge-js-2.0.2.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v2.0.2/gauge-js-2.0.2.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v2.0.2/gauge-js-2.0.2.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v2.0.2/gauge-js-2.0.2.zip"
                 }
             }
         },
@@ -207,14 +207,14 @@
             },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.1/gauge-js-2.0.1.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.1/gauge-js-2.0.1.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.1/gauge-js-2.0.1.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v2.0.1/gauge-js-2.0.1.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v2.0.1/gauge-js-2.0.1.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v2.0.1/gauge-js-2.0.1.zip"
                 },
                 "x64": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.1/gauge-js-2.0.1.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.1/gauge-js-2.0.1.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.1/gauge-js-2.0.1.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v2.0.1/gauge-js-2.0.1.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v2.0.1/gauge-js-2.0.1.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v2.0.1/gauge-js-2.0.1.zip"
                 }
             }
         },
@@ -231,14 +231,14 @@
             },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.0/gauge-js-2.0.0.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.0/gauge-js-2.0.0.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.0/gauge-js-2.0.0.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v2.0.0/gauge-js-2.0.0.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v2.0.0/gauge-js-2.0.0.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v2.0.0/gauge-js-2.0.0.zip"
                 },
                 "x64": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.0/gauge-js-2.0.0.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.0/gauge-js-2.0.0.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v2.0.0/gauge-js-2.0.0.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v2.0.0/gauge-js-2.0.0.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v2.0.0/gauge-js-2.0.0.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v2.0.0/gauge-js-2.0.0.zip"
                 }
             }
         },
@@ -255,14 +255,14 @@
             },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.3.0/gauge-js-1.3.0.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.3.0/gauge-js-1.3.0.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.3.0/gauge-js-1.3.0.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v1.3.0/gauge-js-1.3.0.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v1.3.0/gauge-js-1.3.0.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v1.3.0/gauge-js-1.3.0.zip"
                 },
                 "x64": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.3.0/gauge-js-1.3.0.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.3.0/gauge-js-1.3.0.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.3.0/gauge-js-1.3.0.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v1.3.0/gauge-js-1.3.0.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v1.3.0/gauge-js-1.3.0.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v1.3.0/gauge-js-1.3.0.zip"
                 }
             }
         },
@@ -279,14 +279,14 @@
             },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.2.1/gauge-js-1.2.1.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.2.1/gauge-js-1.2.1.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.2.1/gauge-js-1.2.1.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v1.2.1/gauge-js-1.2.1.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v1.2.1/gauge-js-1.2.1.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v1.2.1/gauge-js-1.2.1.zip"
                 },
                 "x64": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.2.1/gauge-js-1.2.1.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.2.1/gauge-js-1.2.1.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.2.1/gauge-js-1.2.1.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v1.2.1/gauge-js-1.2.1.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v1.2.1/gauge-js-1.2.1.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v1.2.1/gauge-js-1.2.1.zip"
                 }
             }
         },
@@ -303,14 +303,14 @@
             },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.2.0/gauge-js-1.2.0.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.2.0/gauge-js-1.2.0.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.2.0/gauge-js-1.2.0.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v1.2.0/gauge-js-1.2.0.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v1.2.0/gauge-js-1.2.0.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v1.2.0/gauge-js-1.2.0.zip"
                 },
                 "x64": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.2.0/gauge-js-1.2.0.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.2.0/gauge-js-1.2.0.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.2.0/gauge-js-1.2.0.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v1.2.0/gauge-js-1.2.0.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v1.2.0/gauge-js-1.2.0.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v1.2.0/gauge-js-1.2.0.zip"
                 }
             }
         },
@@ -327,14 +327,14 @@
             },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.1.0/gauge-js-1.1.0.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.1.0/gauge-js-1.1.0.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.1.0/gauge-js-1.1.0.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v1.1.0/gauge-js-1.1.0.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v1.1.0/gauge-js-1.1.0.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v1.1.0/gauge-js-1.1.0.zip"
                 },
                 "x64": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.1.0/gauge-js-1.1.0.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.1.0/gauge-js-1.1.0.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.1.0/gauge-js-1.1.0.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v1.1.0/gauge-js-1.1.0.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v1.1.0/gauge-js-1.1.0.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v1.1.0/gauge-js-1.1.0.zip"
                 }
             }
         },
@@ -351,14 +351,14 @@
             },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.0.0/gauge-js-1.0.0.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.0.0/gauge-js-1.0.0.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.0.0/gauge-js-1.0.0.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v1.0.0/gauge-js-1.0.0.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v1.0.0/gauge-js-1.0.0.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v1.0.0/gauge-js-1.0.0.zip"
                 },
                 "x64": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.0.0/gauge-js-1.0.0.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.0.0/gauge-js-1.0.0.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v1.0.0/gauge-js-1.0.0.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v1.0.0/gauge-js-1.0.0.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v1.0.0/gauge-js-1.0.0.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v1.0.0/gauge-js-1.0.0.zip"
                 }
             }
         },
@@ -375,14 +375,14 @@
             },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v0.2.0/gauge-js-0.2.0.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v0.2.0/gauge-js-0.2.0.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v0.2.0/gauge-js-0.2.0.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v0.2.0/gauge-js-0.2.0.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v0.2.0/gauge-js-0.2.0.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v0.2.0/gauge-js-0.2.0.zip"
                 },
                 "x64": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v0.2.0/gauge-js-0.2.0.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v0.2.0/gauge-js-0.2.0.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v0.2.0/gauge-js-0.2.0.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v0.2.0/gauge-js-0.2.0.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v0.2.0/gauge-js-0.2.0.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v0.2.0/gauge-js-0.2.0.zip"
                 }
             }
         },
@@ -399,14 +399,14 @@
             },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v0.1.1/gauge-js-0.1.1.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v0.1.1/gauge-js-0.1.1.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v0.1.1/gauge-js-0.1.1.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v0.1.1/gauge-js-0.1.1.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v0.1.1/gauge-js-0.1.1.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v0.1.1/gauge-js-0.1.1.zip"
                 },
                 "x64": {
-                    "windows": "https://github.com/getgauge-contrib/gauge-js/releases/download/v0.1.1/gauge-js-0.1.1.zip",
-                    "linux": "https://github.com/getgauge-contrib/gauge-js/releases/download/v0.1.1/gauge-js-0.1.1.zip",
-                    "darwin": "https://github.com/getgauge-contrib/gauge-js/releases/download/v0.1.1/gauge-js-0.1.1.zip"
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v0.1.1/gauge-js-0.1.1.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v0.1.1/gauge-js-0.1.1.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v0.1.1/gauge-js-0.1.1.zip"
                 }
             }
         }
