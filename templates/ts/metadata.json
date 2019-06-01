@@ -1,0 +1,7 @@
+{
+    "name": "ts",
+    "description": "Gauge template for Typescript",
+    "version": "0.0.1",
+    "postInstallCmd" : "npm install",
+    "postInstallMsg" : "Run specifications with \"gauge run specs/\"."
+  }
