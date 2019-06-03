@@ -21,9 +21,9 @@
                     "darwin": "https://github.com/BugDiver/gauge-ts/releases/download/v0.0.2/gauge-ts-0.0.2.zip"
                 },
                 "x64": {
-                    "windows": "https://github.com/getgauge/BugDiver/releases/download/v0.0.2/gauge-ts-0.0.2.zip",
-                    "linux": "https://github.com/getgauge/BugDiver/releases/download/v0.0.2/gauge-ts-0.0.2.zip",
-                    "darwin": "https://github.com/getgauge/BugDiver/releases/download/v0.0.2/gauge-ts-0.0.2.zip"
+                    "windows": "https://github.com/BugDiver/gauge-ts/releases/download/v0.0.2/gauge-ts-0.0.2.zip",
+                    "linux": "https://github.com/BugDiver/gauge-ts/releases/download/v0.0.2/gauge-ts-0.0.2.zip",
+                    "darwin": "https://github.com/BugDiver/gauge-ts/releases/download/v0.0.2/gauge-ts-0.0.2.zip"
                 }
             }
         }
