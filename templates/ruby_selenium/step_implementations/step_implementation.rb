@@ -6,7 +6,7 @@ include ::Driver
 
 step 'Navigate to Gauge homepage <url>' do |url|
   driver.navigate.to url
-  assert_equal driver.title, 'Gauge | ThoughtWorks'
+  assert_equal driver.title, 'Open Source Test Automation Framework | Gauge'
 end
 
 step 'Go to Gauge Get Started Page' do

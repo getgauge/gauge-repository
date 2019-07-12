@@ -1,7 +1,7 @@
 {
   "name": "ruby_selenium",
   "description": "Gauge template for Ruby plugin and Selenium as driver to interact with a web browser",
-  "version": "0.0.3",
+  "version": "0.0.4",
 
   "postInstallCmd" : "bundle install --path vendor/bundle",
   "postInstallMsg" : "Run specifications with \"bundle exec gauge run specs\" in project root."

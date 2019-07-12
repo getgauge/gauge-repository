@@ -12,7 +12,7 @@ module Driver
     options = Selenium::WebDriver::Chrome::Options.new
 
     headless = ENV['headless'] || 'N'
-	
+
     if(headless.downcase == 'y')
         options.add_argument('--headless')
         options.add_argument('--disable-gpu')
@@ -20,6 +20,7 @@ module Driver
 
     # Initialize driver from DriverFactory
     @@driver = Selenium::WebDriver.for :chrome, options: options
+
   end
 
   after_suite do
