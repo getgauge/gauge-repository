@@ -2,6 +2,32 @@
     "name": "go",
     "description": "Go language runner for Gauge",
     "versions": [
+         {
+            "version": "0.1.3",
+            "gaugeVersionSupport": {
+                "minimum": "0.8.0",
+                "maximum": ""
+            },
+
+            "install": {
+                "windows": [],
+                "linux": [],
+                "darwin": []
+            },
+
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/getgauge-contrib/gauge-go/releases/download/v0.1.3/gauge-go-0.1.3-windows.x86.zip",
+                    "linux": "https://github.com/getgauge-contrin/gauge-go/releases/download/v0.1.3/gauge-go-0.1.3-linux.x86.zip",
+                    "darwin": "https://github.com/getgauge-contrib/gauge-go/releases/download/v0.1.3/gauge-go-0.1.3-darwin.x86.zip"
+                },
+                "x64": {
+                    "windows": "https://github.com/getgauge-contrib/gauge-go/releases/download/v0.1.3/gauge-go-0.1.3-windows.x86_64.zip",
+                    "linux": "https://github.com/getgauge-contrib/gauge-go/releases/download/v0.1.3/gauge-go-0.1.3-linux.x86_64.zip",
+                    "darwin": "https://github.com/getgauge-contrib/gauge-go/releases/download/v0.1.3/gauge-go-0.1.3-darwin.x86_64.zip"
+                }
+            }
+        },
         {
             "version": "0.1.2",
             "gaugeVersionSupport": {
