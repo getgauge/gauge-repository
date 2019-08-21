@@ -1,14 +1,15 @@
-Gauge-Repository
-================
+# Gauge-Repository
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
 This contains the meta-data of [gauge plugins and language runners](https://gauge.org/plugins/) which is used during installation and upgrades.
 
-### Steps to add new plugin details :
+## Steps to add new plugin details
+
 * Add a file with name {plugin_name}-install.json in the base directory.
 * Following snippet shows the json format for the above file.
-```
+
+```json
 {
     "name": "{plugin_name}",
     "description": "{description}",
@@ -43,4 +44,5 @@ This contains the meta-data of [gauge plugins and language runners](https://gaug
     ]
 }
 ```
+
 * For reference, have a look at our [plugin-install.json](https://github.com/getgauge/gauge-repository/blob/master/java-install.json)
