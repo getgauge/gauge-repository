@@ -1,6 +1,6 @@
 /* globals gauge*/
 "use strict";
-const { openBrowser,write, closeBrowser, goto, press, text, focus, inputField, toRightOf } = require('taiko');
+const { openBrowser,write, closeBrowser, goto, press, text, focus, textBox, toRightOf } = require('taiko');
 const assert = require("assert");
 const headless = process.env.headless_chrome.toLowerCase() === 'true';
 
@@ -17,7 +17,7 @@ step("Goto getgauge github page", async () => {
 });
 
 step("Search for <query>", async (query) => {
-    await focus(inputField(toRightOf('Pricing')))
+    await focus(textBox(toRightOf('Pricing')))
     await write(query);
     await press('Enter');
 });
