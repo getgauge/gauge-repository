@@ -3,6 +3,31 @@
     "description": "C# language runner for gauge",
     "versions": [
         {
+            "version": "0.10.6",
+            "gaugeVersionSupport": {
+                "minimum": "1.0.6",
+                "maximum": ""
+            },
+            "install": {
+                "windows": [],
+                "linux": [],
+                "darwin": []
+            },
+
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/getgauge/gauge-csharp/releases/download/v0.10.6/gauge-csharp-0.10.6.zip",
+                    "linux": "https://github.com/getgauge/gauge-csharp/releases/download/v0.10.6/gauge-csharp-0.10.6.zip",
+                    "darwin": "https://github.com/getgauge/gauge-csharp/releases/download/v0.10.6/gauge-csharp-0.10.6.zip"
+                },
+                "x64": {
+                    "windows": "https://github.com/getgauge/gauge-csharp/releases/download/v0.10.6/gauge-csharp-0.10.6.zip",
+                    "linux": "https://github.com/getgauge/gauge-csharp/releases/download/v0.10.6/gauge-csharp-0.10.6.zip",
+                    "darwin": "https://github.com/getgauge/gauge-csharp/releases/download/v0.10.6/gauge-csharp-0.10.6.zip"
+                }
+            }
+        },
+        {
             "version": "0.10.5",
             "gaugeVersionSupport": {
                 "minimum": "1.0.0",
