@@ -6,6 +6,6 @@
     "test": "gauge run specs/"
   },
   "dependencies": {
-    "webdriverio": "^4.8.0"
+    "webdriverio": "^5.14.4"
   }
 }
