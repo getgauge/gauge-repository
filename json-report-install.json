@@ -3,6 +3,30 @@
     "description": "JSON style report plugin for Gauge",
     "versions": [
         {
+            "version": "0.3.2",
+            "gaugeVersionSupport": {
+                "minimum": "1.0.0",
+                "maximum": ""
+            },
+            "install": {
+                "windows": [],
+                "linux": [],
+                "darwin": []
+            },
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/apoorvam/json-report/releases/download/v0.3.2/json-report-0.3.2-windows.x86.zip",
+                    "linux": "https://github.com/apoorvam/json-report/releases/download/v0.3.2/json-report-0.3.2-linux.x86.zip",
+                    "darwin": "https://github.com/apoorvam/json-report/releases/download/v0.3.2/json-report-0.3.2-darwin.x86.zip"
+                },
+                "x64": {
+                    "windows": "https://github.com/apoorvam/json-report/releases/download/v0.3.2/json-report-0.3.2-windows.x86_64.zip",
+                    "linux": "https://github.com/apoorvam/json-report/releases/download/v0.3.2/json-report-0.3.2-linux.x86_64.zip",
+                    "darwin": "https://github.com/apoorvam/json-report/releases/download/v0.3.2/json-report-0.3.2-darwin.x86_64.zip"
+                }
+            }
+        },
+        {
             "version": "0.3.1",
             "gaugeVersionSupport": {
                 "minimum": "0.8.0",
