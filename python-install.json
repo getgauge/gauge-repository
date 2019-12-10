@@ -3,6 +3,32 @@
     "description": "Python language runner for Gauge",
     "versions": [
         {
+            "version": "0.3.7",
+            "gaugeVersionSupport": {
+                "minimum": "1.0.6",
+                "maximum": ""
+            },
+
+            "install": {
+                "windows": [],
+                "linux": [],
+                "darwin": []
+            },
+
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.7/gauge-python-0.3.7.zip",
+                    "linux": "https://github.com/getgauge/gauge-python/releases/download/v0.3.7/gauge-python-0.3.7.zip",
+                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.7/gauge-python-0.3.7.zip"
+                },
+                "x64": {
+                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.7/gauge-python-0.3.7.zip",
+                    "linux": "https://github.com/getgauge/gauge-python/releases/download/v0.3.7/gauge-python-0.3.7.zip",
+                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.7/gauge-python-0.3.7.zip"
+                }
+            }
+        },
+        {
             "version": "0.3.6",
             "gaugeVersionSupport": {
                 "minimum": "1.0.6",
