@@ -1,7 +1,7 @@
 {
   "name": "ruby",
   "description": "Gauge template for Ruby plugin",
-  "version": "0.0.6",
+  "version": "0.0.7",
 
   "postInstallCmd" : "ruby create_gemfile.rb",
   "postInstallMsg" : "Run specifications with \"bundle exec gauge run specs/\"."
