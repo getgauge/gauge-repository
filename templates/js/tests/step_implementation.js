@@ -1,6 +1,6 @@
 /* globals gauge*/
 "use strict";
-const { openBrowser,write, closeBrowser, goto, press, text, focus, textBox, toRightOf } = require('taiko');
+const { openBrowser,write, closeBrowser, goto, press, screenshot, text, focus, textBox, toRightOf } = require('taiko');
 const assert = require("assert");
 const headless = process.env.headless_chrome.toLowerCase() === 'true';
 
@@ -11,6 +11,10 @@ beforeSuite(async () => {
 afterSuite(async () => {
     await closeBrowser();
 });
+
+gauge.screenshotFn = async function() {
+    return await screenshot({ encoding: 'base64' });
+};
 
 step("Goto getgauge github page", async () => {
     await goto('https://github.com/getgauge');
