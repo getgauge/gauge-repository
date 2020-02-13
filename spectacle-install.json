@@ -3,6 +3,33 @@
     "description": "Plugin to export specs to html",
     "versions": [
         {
+            "version": "0.1.4",
+            "gaugeVersionSupport": {
+                "minimum": "1.0.7",
+                "maximum": ""
+            },
+
+            "install": {
+                "windows": [],
+                "linux": [],
+                "darwin": []
+            },
+
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/getgauge/spectacle/releases/download/v0.1.4/spectacle-0.1.4-windows.x86.zip",
+                    "linux": "https://github.com/getgauge/spectacle/releases/download/v0.1.4/spectacle-0.1.4-linux.x86.zip",
+                    "darwin": "https://github.com/getgauge/spectacle/releases/download/v0.1.4/spectacle-0.1.4-darwin.x86.zip"
+                },
+                "x64": {
+                    "windows": "https://github.com/getgauge/spectacle/releases/download/v0.1.4/spectacle-0.1.4-windows.x86_64.zip",
+                    "linux": "https://github.com/getgauge/spectacle/releases/download/v0.1.4/spectacle-0.1.4-linux.x86_64.zip",
+                    "darwin": "https://github.com/getgauge/spectacle/releases/download/v0.1.4/spectacle-0.1.4-darwin.x86_64.zip"
+                }
+
+            }
+        },
+        {
             "version": "0.1.3",
             "gaugeVersionSupport": {
                 "minimum": "0.8.0",

@@ -3,9 +3,9 @@
     "description": "JSON style report plugin for Gauge",
     "versions": [
         {
-            "version": "0.3.2",
+            "version": "0.3.3",
             "gaugeVersionSupport": {
-                "minimum": "1.0.0",
+                "minimum": "1.0.7",
                 "maximum": ""
             },
             "install": {

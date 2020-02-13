@@ -2,9 +2,9 @@
     "name": "flash",
     "description": "Execution progress reporter for Gauge",
     "versions": [{
-        "version": "0.0.1",
+        "version": "0.0.2",
         "gaugeVersionSupport": {
-            "minimum": "0.8.5",
+            "minimum": "1.0.7",
             "maximum": ""
         },
         "install": {
@@ -14,14 +14,14 @@
         },
         "DownloadUrls": {
             "x86": {
-                "windows": "https://github.com/getgauge/Flash/releases/download/v0.0.1/flash-0.0.1-windows.x86.zip",
-                "linux": "https://github.com/getgauge/Flash/releases/download/v0.0.1/flash-0.0.1-linux.x86.zip",
-                "darwin": "https://github.com/getgauge/Flash/releases/download/v0.0.1/flash-0.0.1-darwin.x86.zip"
+                "windows": "https://github.com/getgauge/Flash/releases/download/v0.0.2/flash-0.0.2-windows.x86.zip",
+                "linux": "https://github.com/getgauge/Flash/releases/download/v0.0.2/flash-0.0.2-linux.x86.zip",
+                "darwin": "https://github.com/getgauge/Flash/releases/download/v0.0.2/flash-0.0.2-darwin.x86.zip"
             },
             "x64": {
-                "windows": "https://github.com/getgauge/Flash/releases/download/v0.0.1/flash-0.0.1-windows.x86_64.zip",
-                "linux": "https://github.com/getgauge/Flash/releases/download/v0.0.1/flash-0.0.1-linux.x86_64.zip",
-                "darwin": "https://github.com/getgauge/Flash/releases/download/v0.0.1/flash-0.0.1-darwin.x86_64.zip"
+                "windows": "https://github.com/getgauge/Flash/releases/download/v0.0.2/flash-0.0.2-windows.x86_64.zip",
+                "linux": "https://github.com/getgauge/Flash/releases/download/v0.0.2/flash-0.0.2-linux.x86_64.zip",
+                "darwin": "https://github.com/getgauge/Flash/releases/download/v0.0.2/flash-0.0.2-darwin.x86_64.zip"
             }
         }
     }]
