@@ -3,6 +3,31 @@
     "description": ".NET language runner for gauge",
     "versions": [
         {
+            "version": "0.1.3",
+            "gaugeVersionSupport": {
+                "minimum": "1.0.7",
+                "maximum": ""
+            },
+            "install": {
+                "windows": [],
+                "linux": [],
+                "darwin": []
+            },
+
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.1.3/gauge-dotnet-0.1.3.zip",
+                    "linux": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.1.3/gauge-dotnet-0.1.3.zip",
+                    "darwin": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.1.3/gauge-dotnet-0.1.3.zip"
+                },
+                "x64": {
+                    "windows": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.1.3/gauge-dotnet-0.1.3.zip",
+                    "linux": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.1.3/gauge-dotnet-0.1.3.zip",
+                    "darwin": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.1.3/gauge-dotnet-0.1.3.zip"
+                }
+            }
+        },
+        {
             "version": "0.1.2",
             "gaugeVersionSupport": {
                 "minimum": "1.0.6",
