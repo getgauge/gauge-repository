@@ -4,9 +4,7 @@
   "version": "0.0.1",
   "description": "Starter template for writing TypeScript tests for Gauge",
   "dependencies": {
-    "gauge-ts": "latest",
-    "ts-node": "latest",
-    "typescript": "latest"
+    "gauge-ts": "0.0.4"
   },
   "devDependencies": {
     "@types/node": "latest"
