@@ -3,6 +3,31 @@
     "description": "Typescript language runner for gauge",
     "versions": [
         {
+            "version": "0.0.5",
+            "gaugeVersionSupport": {
+                "minimum": "1.0.7",
+                "maximum": ""
+            },
+            "install": {
+                "windows": [],
+                "linux": [],
+                "darwin": []
+            },
+
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/BugDiver/gauge-ts/releases/download/v0.0.5/gauge-ts-0.0.5.zip",
+                    "linux": "https://github.com/BugDiver/gauge-ts/releases/download/v0.0.5/gauge-ts-0.0.5.zip",
+                    "darwin": "https://github.com/BugDiver/gauge-ts/releases/download/v0.0.5/gauge-ts-0.0.5.zip"
+                },
+                "x64": {
+                    "windows": "https://github.com/BugDiver/gauge-ts/releases/download/v0.0.5/gauge-ts-0.0.5.zip",
+                    "linux": "https://github.com/BugDiver/gauge-ts/releases/download/v0.0.5/gauge-ts-0.0.5.zip",
+                    "darwin": "https://github.com/BugDiver/gauge-ts/releases/download/v0.0.5/gauge-ts-0.0.5.zip"
+                }
+            }
+        },
+        {
             "version": "0.0.4",
             "gaugeVersionSupport": {
                 "minimum": "1.0.0",
