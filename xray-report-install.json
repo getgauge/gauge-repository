@@ -1,0 +1,30 @@
+{
+    "name": "xray-report",
+    "description": "Jira Xray plugin for Gauge",
+    "versions": [
+        {
+            "version": "0.1.0",
+            "gaugeVersionSupport": {
+                "minimum": "1.0.7",
+                "maximum": ""
+            },
+            "install": {
+                "windows": [],
+                "linux": [],
+                "darwin": []
+            },
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/jbadeau/xray-report/releases/download/0.1.0/xray-report-0.1.0.zip",
+                    "linux": "https://github.com/jbadeau/xray-report/releases/download/0.1.0/xray-report-0.1.0.zip",
+                    "darwin": "https://github.com/jbadeau/xray-report/releases/download/0.1.0/xray-report-0.1.0.zip"
+                },
+                "x64": {
+                    "windows": "https://github.com/jbadeau/xray-report/releases/download/0.1.0/xray-report-0.1.0.zip",
+                    "linux": "https://github.com/jbadeau/xray-report/releases/download/0.1.0/xray-report-0.1.0.zip",
+                    "darwin": "https://github.com/jbadeau/xray-report/releases/download/0.1.0/xray-report-0.1.0.zip"
+                }
+            }
+        }
+    ]
+}
