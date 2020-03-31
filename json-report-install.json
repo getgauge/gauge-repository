@@ -15,14 +15,14 @@
             },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/apoorvam/json-report/releases/download/v0.3.2/json-report-0.3.2-windows.x86.zip",
-                    "linux": "https://github.com/apoorvam/json-report/releases/download/v0.3.2/json-report-0.3.2-linux.x86.zip",
-                    "darwin": "https://github.com/apoorvam/json-report/releases/download/v0.3.2/json-report-0.3.2-darwin.x86.zip"
+                    "windows": "https://github.com/apoorvam/json-report/releases/download/v0.3.3/json-report-0.3.3-windows.x86.zip",
+                    "linux": "https://github.com/apoorvam/json-report/releases/download/v0.3.3/json-report-0.3.3-linux.x86.zip",
+                    "darwin": "https://github.com/apoorvam/json-report/releases/download/v0.3.3/json-report-0.3.3-darwin.x86.zip"
                 },
                 "x64": {
-                    "windows": "https://github.com/apoorvam/json-report/releases/download/v0.3.2/json-report-0.3.2-windows.x86_64.zip",
-                    "linux": "https://github.com/apoorvam/json-report/releases/download/v0.3.2/json-report-0.3.2-linux.x86_64.zip",
-                    "darwin": "https://github.com/apoorvam/json-report/releases/download/v0.3.2/json-report-0.3.2-darwin.x86_64.zip"
+                    "windows": "https://github.com/apoorvam/json-report/releases/download/v0.3.3/json-report-0.3.3-windows.x86_64.zip",
+                    "linux": "https://github.com/apoorvam/json-report/releases/download/v0.3.3/json-report-0.3.3-linux.x86_64.zip",
+                    "darwin": "https://github.com/apoorvam/json-report/releases/download/v0.3.3/json-report-0.3.3-darwin.x86_64.zip"
                 }
             }
         },
