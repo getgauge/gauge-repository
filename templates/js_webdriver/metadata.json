@@ -1,8 +1,0 @@
-{
-  "name": "js_webdriver",
-  "description": "Gauge template for Javascript and WebDriver",
-  "version": "0.0.4",
-
-  "postInstallCmd" : "npm install",
-  "postInstallMsg" : "Run specifications with \"npm test\" in project root."
-}

@@ -1,7 +1,0 @@
-{
-    "name": "go_agouti",
-    "description": "Gauge template for Ruby and Agouti as driver",
-    "version": "0.0.4",
-    "postInstallCmd" : "go run setup.go",
-    "postInstallMsg" : "Run specifications with \"gauge run specs/\"."
-  }
