@@ -1,3 +1,2 @@
 getgauge
 selenium
-chromedriver_installer
