@@ -1,15 +1,29 @@
-from getgauge.python import step
 import os
-from step_impl.utils.driver import Driver
+from getgauge.python import before_suite, after_suite, step
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options  
+from selenium.webdriver.common.keys import Keys
 
-@step("Show subtitle <arg1>")
-def show_subtitle(arg1):
-    assert Driver.driver.find_element_by_class_name("sub-title").text == arg1
-  
-@step("Go to Get Started page")
-def go_to_get_started_page():
-  Driver.driver.find_element_by_link_text("Get Started").click()
+@before_suite
+def init():
+    global driver
+    options = Options()
+    #  By default the chrom instance is launched in
+    #  headless mode. Do not pass this option if
+    #  you want to see the browser window
+    options.add_argument("--headless")
+    driver = webdriver.Chrome(chrome_options=options)
 
-@step("Go to Gauge homepage at <url>")
-def go_to_gauge_homepage_at(arg1):
-    Driver.driver.get(arg1)
+@after_suite
+def close():
+    driver.close()
+
+@step("Search for <query>")
+def go_to_get_started_page(query):
+  textbox = driver.find_element_by_xpath("//input[@name='q']")
+  textbox.send_keys(query)
+  textbox.send_keys(Keys.RETURN)
+
+@step("Go to Google homepage at <url>")
+def go_to_gauge_homepage_at(url):
+    driver.get(url)
