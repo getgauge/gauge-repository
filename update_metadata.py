@@ -4,17 +4,17 @@ import os
 import re
 import sys
 
-plugin_file = "plugin/{0}-install.json"
+plugin_file = "{0}-install.json"
 
 
 def print_usage():
     usage = """
 Usage:
-    python update_metadata.py <plugin_name> <new_version>
+    python update_metada.py <plugin_name> <new_version>
 
 Example:
-    python update_metadata.py java 0.7.4
-    python update_metadata.py html-report 1.2.3
+    python update_metdata.py java 0.7.4
+    python update_metdata.py html-report 1.2.3
 """
     print(usage)
     exit(1)
@@ -34,7 +34,7 @@ def update_urls(metadata, version):
             urls[arch][platform] = new_url
 
 
-def update_meta(plugin, version):
+def update_matada(plugin, version):
     file = plugin_file.format(plugin)
     with open(file, 'r') as f:
         data = json.load(f)
@@ -51,4 +51,4 @@ def update_meta(plugin, version):
 if __name__ == "__main__":
     if len(sys.argv) < 3:
         print_usage()
-    update_meta(sys.argv[1], sys.argv[2])
+    update_matada(sys.argv[1], sys.argv[2])
