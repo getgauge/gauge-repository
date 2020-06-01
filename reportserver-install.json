@@ -3,6 +3,30 @@
     "description": "A report plugin that will send the generated html-report to a HTTP fileserver such as gohttpserver.",
     "versions": [
         {
+            "version": "0.2.0",
+            "gaugeVersionSupport": {
+                "minimum": "1.0.7",
+                "maximum": ""
+            },
+            "install": {
+                "windows": [],
+                "linux": [],
+                "darwin": []
+            },
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/sitture/gauge-reportserver/releases/download/v0.2.0/reportserver-0.2.0-windows.x86.zip",
+                    "linux": "https://github.com/sitture/gauge-reportserver/releases/download/v0.2.0/reportserver-0.2.0-linux.x86.zip",
+                    "darwin": "https://github.com/sitture/gauge-reportserver/releases/download/v0.2.0/reportserver-0.2.0-darwin.x86.zip"
+                },
+                "x64": {
+                    "windows": "https://github.com/sitture/gauge-reportserver/releases/download/v0.2.0/reportserver-0.2.0-windows.x86_64.zip",
+                    "linux": "https://github.com/sitture/gauge-reportserver/releases/download/v0.2.0/reportserver-0.2.0-linux.x86_64.zip",
+                    "darwin": "https://github.com/sitture/gauge-reportserver/releases/download/v0.2.0/reportserver-0.2.0-darwin.x86_64.zip"
+                }
+            }
+        },
+        {
             "version": "0.1.1",
             "gaugeVersionSupport": {
                 "minimum": "1.0.0",
