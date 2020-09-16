@@ -1,606 +1,654 @@
 {
     "versions": [
         {
-            "version": "0.3.9", 
+            "version": "0.3.11",
             "gaugeVersionSupport": {
-                "minimum": "1.0.7", 
+                "minimum": "1.0.7",
                 "maximum": ""
-            }, 
+            },
             "install": {
-                "windows": [], 
-                "darwin": [], 
+                "windows": [],
+                "darwin": [],
                 "linux": []
-            }, 
+            },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.9/gauge-python-0.3.9.zip", 
-                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.9/gauge-python-0.3.9.zip", 
+                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.11/gauge-python-0.3.11.zip",
+                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.11/gauge-python-0.3.11.zip",
+                    "linux": "https://github.com/getgauge/gauge-python/releases/download/v0.3.11/gauge-python-0.3.11.zip"
+                },
+                "x64": {
+                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.11/gauge-python-0.3.11.zip",
+                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.11/gauge-python-0.3.11.zip",
+                    "linux": "https://github.com/getgauge/gauge-python/releases/download/v0.3.11/gauge-python-0.3.11.zip"
+                }
+            }
+        },
+        {
+            "version": "0.3.10",
+            "gaugeVersionSupport": {
+                "minimum": "1.0.7",
+                "maximum": ""
+            },
+            "install": {
+                "windows": [],
+                "darwin": [],
+                "linux": []
+            },
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.10/gauge-python-0.3.10.zip",
+                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.10/gauge-python-0.3.10.zip",
+                    "linux": "https://github.com/getgauge/gauge-python/releases/download/v0.3.10/gauge-python-0.3.10.zip"
+                },
+                "x64": {
+                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.10/gauge-python-0.3.10.zip",
+                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.10/gauge-python-0.3.10.zip",
+                    "linux": "https://github.com/getgauge/gauge-python/releases/download/v0.3.10/gauge-python-0.3.10.zip"
+                }
+            }
+        },
+        {
+            "version": "0.3.9",
+            "gaugeVersionSupport": {
+                "minimum": "1.0.7",
+                "maximum": ""
+            },
+            "install": {
+                "windows": [],
+                "darwin": [],
+                "linux": []
+            },
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.9/gauge-python-0.3.9.zip",
+                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.9/gauge-python-0.3.9.zip",
                     "linux": "https://github.com/getgauge/gauge-python/releases/download/v0.3.9/gauge-python-0.3.9.zip"
-                }, 
+                },
                 "x64": {
-                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.9/gauge-python-0.3.9.zip", 
-                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.9/gauge-python-0.3.9.zip", 
+                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.9/gauge-python-0.3.9.zip",
+                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.9/gauge-python-0.3.9.zip",
                     "linux": "https://github.com/getgauge/gauge-python/releases/download/v0.3.9/gauge-python-0.3.9.zip"
                 }
             }
-        }, 
+        },
         {
-            "version": "0.3.8", 
+            "version": "0.3.8",
             "gaugeVersionSupport": {
-                "minimum": "1.0.7", 
+                "minimum": "1.0.7",
                 "maximum": ""
-            }, 
+            },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.8/gauge-python-0.3.8.zip", 
-                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.8/gauge-python-0.3.8.zip", 
+                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.8/gauge-python-0.3.8.zip",
+                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.8/gauge-python-0.3.8.zip",
                     "linux": "https://github.com/getgauge/gauge-python/releases/download/v0.3.8/gauge-python-0.3.8.zip"
-                }, 
+                },
                 "x64": {
-                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.8/gauge-python-0.3.8.zip", 
-                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.8/gauge-python-0.3.8.zip", 
+                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.8/gauge-python-0.3.8.zip",
+                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.8/gauge-python-0.3.8.zip",
                     "linux": "https://github.com/getgauge/gauge-python/releases/download/v0.3.8/gauge-python-0.3.8.zip"
                 }
-            }, 
+            },
             "install": {
-                "windows": [], 
-                "darwin": [], 
+                "windows": [],
+                "darwin": [],
                 "linux": []
             }
-        }, 
+        },
         {
-            "version": "0.3.7", 
+            "version": "0.3.7",
             "gaugeVersionSupport": {
-                "minimum": "1.0.6", 
+                "minimum": "1.0.6",
                 "maximum": ""
-            }, 
+            },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.7/gauge-python-0.3.7.zip", 
-                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.7/gauge-python-0.3.7.zip", 
+                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.7/gauge-python-0.3.7.zip",
+                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.7/gauge-python-0.3.7.zip",
                     "linux": "https://github.com/getgauge/gauge-python/releases/download/v0.3.7/gauge-python-0.3.7.zip"
-                }, 
+                },
                 "x64": {
-                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.7/gauge-python-0.3.7.zip", 
-                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.7/gauge-python-0.3.7.zip", 
+                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.7/gauge-python-0.3.7.zip",
+                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.7/gauge-python-0.3.7.zip",
                     "linux": "https://github.com/getgauge/gauge-python/releases/download/v0.3.7/gauge-python-0.3.7.zip"
                 }
-            }, 
+            },
             "install": {
-                "windows": [], 
-                "darwin": [], 
+                "windows": [],
+                "darwin": [],
                 "linux": []
             }
-        }, 
+        },
         {
-            "version": "0.3.6", 
+            "version": "0.3.6",
             "gaugeVersionSupport": {
-                "minimum": "1.0.6", 
+                "minimum": "1.0.6",
                 "maximum": ""
-            }, 
+            },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.6/gauge-python-0.3.6.zip", 
-                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.6/gauge-python-0.3.6.zip", 
+                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.6/gauge-python-0.3.6.zip",
+                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.6/gauge-python-0.3.6.zip",
                     "linux": "https://github.com/getgauge/gauge-python/releases/download/v0.3.6/gauge-python-0.3.6.zip"
-                }, 
+                },
                 "x64": {
-                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.6/gauge-python-0.3.6.zip", 
-                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.6/gauge-python-0.3.6.zip", 
+                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.6/gauge-python-0.3.6.zip",
+                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.6/gauge-python-0.3.6.zip",
                     "linux": "https://github.com/getgauge/gauge-python/releases/download/v0.3.6/gauge-python-0.3.6.zip"
                 }
-            }, 
+            },
             "install": {
-                "windows": [], 
-                "darwin": [], 
+                "windows": [],
+                "darwin": [],
                 "linux": []
             }
-        }, 
+        },
         {
-            "version": "0.3.5", 
+            "version": "0.3.5",
             "gaugeVersionSupport": {
-                "minimum": "1.0.0", 
+                "minimum": "1.0.0",
                 "maximum": ""
-            }, 
+            },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.5/gauge-python-0.3.5.zip", 
-                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.5/gauge-python-0.3.5.zip", 
+                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.5/gauge-python-0.3.5.zip",
+                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.5/gauge-python-0.3.5.zip",
                     "linux": "https://github.com/getgauge/gauge-python/releases/download/v0.3.5/gauge-python-0.3.5.zip"
-                }, 
+                },
                 "x64": {
-                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.5/gauge-python-0.3.5.zip", 
-                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.5/gauge-python-0.3.5.zip", 
+                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.5/gauge-python-0.3.5.zip",
+                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.5/gauge-python-0.3.5.zip",
                     "linux": "https://github.com/getgauge/gauge-python/releases/download/v0.3.5/gauge-python-0.3.5.zip"
                 }
-            }, 
+            },
             "install": {
-                "windows": [], 
-                "darwin": [], 
+                "windows": [],
+                "darwin": [],
                 "linux": []
             }
-        }, 
+        },
         {
-            "version": "0.3.4", 
+            "version": "0.3.4",
             "gaugeVersionSupport": {
-                "minimum": "1.0.0", 
+                "minimum": "1.0.0",
                 "maximum": ""
-            }, 
+            },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.4/gauge-python-0.3.4.zip", 
-                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.4/gauge-python-0.3.4.zip", 
+                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.4/gauge-python-0.3.4.zip",
+                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.4/gauge-python-0.3.4.zip",
                     "linux": "https://github.com/getgauge/gauge-python/releases/download/v0.3.4/gauge-python-0.3.4.zip"
-                }, 
+                },
                 "x64": {
-                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.4/gauge-python-0.3.4.zip", 
-                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.4/gauge-python-0.3.4.zip", 
+                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.4/gauge-python-0.3.4.zip",
+                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.4/gauge-python-0.3.4.zip",
                     "linux": "https://github.com/getgauge/gauge-python/releases/download/v0.3.4/gauge-python-0.3.4.zip"
                 }
-            }, 
+            },
             "install": {
-                "windows": [], 
-                "darwin": [], 
+                "windows": [],
+                "darwin": [],
                 "linux": []
             }
-        }, 
+        },
         {
-            "version": "0.3.3", 
+            "version": "0.3.3",
             "gaugeVersionSupport": {
-                "minimum": "1.0.0", 
+                "minimum": "1.0.0",
                 "maximum": ""
-            }, 
+            },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.3/gauge-python-0.3.3.zip", 
-                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.3/gauge-python-0.3.3.zip", 
+                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.3/gauge-python-0.3.3.zip",
+                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.3/gauge-python-0.3.3.zip",
                     "linux": "https://github.com/getgauge/gauge-python/releases/download/v0.3.3/gauge-python-0.3.3.zip"
-                }, 
+                },
                 "x64": {
-                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.3/gauge-python-0.3.3.zip", 
-                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.3/gauge-python-0.3.3.zip", 
+                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.3/gauge-python-0.3.3.zip",
+                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.3/gauge-python-0.3.3.zip",
                     "linux": "https://github.com/getgauge/gauge-python/releases/download/v0.3.3/gauge-python-0.3.3.zip"
                 }
-            }, 
+            },
             "install": {
-                "windows": [], 
-                "darwin": [], 
+                "windows": [],
+                "darwin": [],
                 "linux": []
             }
-        }, 
+        },
         {
-            "version": "0.3.2", 
+            "version": "0.3.2",
             "gaugeVersionSupport": {
-                "minimum": "0.9.8", 
+                "minimum": "0.9.8",
                 "maximum": ""
-            }, 
+            },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.2/gauge-python-0.3.2.zip", 
-                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.2/gauge-python-0.3.2.zip", 
+                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.2/gauge-python-0.3.2.zip",
+                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.2/gauge-python-0.3.2.zip",
                     "linux": "https://github.com/getgauge/gauge-python/releases/download/v0.3.2/gauge-python-0.3.2.zip"
-                }, 
+                },
                 "x64": {
-                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.2/gauge-python-0.3.2.zip", 
-                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.2/gauge-python-0.3.2.zip", 
+                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.2/gauge-python-0.3.2.zip",
+                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.2/gauge-python-0.3.2.zip",
                     "linux": "https://github.com/getgauge/gauge-python/releases/download/v0.3.2/gauge-python-0.3.2.zip"
                 }
-            }, 
+            },
             "install": {
-                "windows": [], 
-                "darwin": [], 
+                "windows": [],
+                "darwin": [],
                 "linux": []
             }
-        }, 
+        },
         {
-            "version": "0.3.1", 
+            "version": "0.3.1",
             "gaugeVersionSupport": {
-                "minimum": "0.9.8", 
+                "minimum": "0.9.8",
                 "maximum": ""
-            }, 
+            },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.1/gauge-python-0.3.1.zip", 
-                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.1/gauge-python-0.3.1.zip", 
+                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.1/gauge-python-0.3.1.zip",
+                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.1/gauge-python-0.3.1.zip",
                     "linux": "https://github.com/getgauge/gauge-python/releases/download/v0.3.1/gauge-python-0.3.1.zip"
-                }, 
+                },
                 "x64": {
-                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.1/gauge-python-0.3.1.zip", 
-                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.1/gauge-python-0.3.1.zip", 
+                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.3.1/gauge-python-0.3.1.zip",
+                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.3.1/gauge-python-0.3.1.zip",
                     "linux": "https://github.com/getgauge/gauge-python/releases/download/v0.3.1/gauge-python-0.3.1.zip"
                 }
-            }, 
+            },
             "install": {
-                "windows": [], 
-                "darwin": [], 
+                "windows": [],
+                "darwin": [],
                 "linux": []
             }
-        }, 
+        },
         {
-            "version": "0.2.5", 
+            "version": "0.2.5",
             "gaugeVersionSupport": {
-                "minimum": "0.9.7", 
+                "minimum": "0.9.7",
                 "maximum": ""
-            }, 
+            },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.2.5/gauge-python-0.2.5.zip", 
-                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.2.5/gauge-python-0.2.5.zip", 
+                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.2.5/gauge-python-0.2.5.zip",
+                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.2.5/gauge-python-0.2.5.zip",
                     "linux": "https://github.com/getgauge/gauge-python/releases/download/v0.2.5/gauge-python-0.2.5.zip"
-                }, 
+                },
                 "x64": {
-                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.2.5/gauge-python-0.2.5.zip", 
-                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.2.5/gauge-python-0.2.5.zip", 
+                    "windows": "https://github.com/getgauge/gauge-python/releases/download/v0.2.5/gauge-python-0.2.5.zip",
+                    "darwin": "https://github.com/getgauge/gauge-python/releases/download/v0.2.5/gauge-python-0.2.5.zip",
                     "linux": "https://github.com/getgauge/gauge-python/releases/download/v0.2.5/gauge-python-0.2.5.zip"
                 }
-            }, 
+            },
             "install": {
-                "windows": [], 
-                "darwin": [], 
+                "windows": [],
+                "darwin": [],
                 "linux": []
             }
-        }, 
+        },
         {
-            "version": "0.2.3", 
+            "version": "0.2.3",
             "gaugeVersionSupport": {
-                "minimum": "0.9.0", 
+                "minimum": "0.9.0",
                 "maximum": ""
-            }, 
+            },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.2.3/gauge-python-0.2.3.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.2.3/gauge-python-0.2.3.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.2.3/gauge-python-0.2.3.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.2.3/gauge-python-0.2.3.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.2.3/gauge-python-0.2.3.zip"
-                }, 
+                },
                 "x64": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.2.3/gauge-python-0.2.3.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.2.3/gauge-python-0.2.3.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.2.3/gauge-python-0.2.3.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.2.3/gauge-python-0.2.3.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.2.3/gauge-python-0.2.3.zip"
                 }
-            }, 
+            },
             "install": {
-                "windows": [], 
-                "darwin": [], 
+                "windows": [],
+                "darwin": [],
                 "linux": []
             }
-        }, 
+        },
         {
-            "version": "0.2.2", 
+            "version": "0.2.2",
             "gaugeVersionSupport": {
-                "minimum": "0.9.0", 
+                "minimum": "0.9.0",
                 "maximum": ""
-            }, 
+            },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.2.2/gauge-python-0.2.2.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.2.2/gauge-python-0.2.2.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.2.2/gauge-python-0.2.2.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.2.2/gauge-python-0.2.2.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.2.2/gauge-python-0.2.2.zip"
-                }, 
+                },
                 "x64": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.2.2/gauge-python-0.2.2.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.2.2/gauge-python-0.2.2.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.2.2/gauge-python-0.2.2.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.2.2/gauge-python-0.2.2.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.2.2/gauge-python-0.2.2.zip"
                 }
-            }, 
+            },
             "install": {
-                "windows": [], 
-                "darwin": [], 
+                "windows": [],
+                "darwin": [],
                 "linux": []
             }
-        }, 
+        },
         {
-            "version": "0.2.1", 
+            "version": "0.2.1",
             "gaugeVersionSupport": {
-                "minimum": "0.8.0", 
+                "minimum": "0.8.0",
                 "maximum": ""
-            }, 
+            },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.2.1/gauge-python-0.2.1.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.2.1/gauge-python-0.2.1.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.2.1/gauge-python-0.2.1.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.2.1/gauge-python-0.2.1.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.2.1/gauge-python-0.2.1.zip"
-                }, 
+                },
                 "x64": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.2.1/gauge-python-0.2.1.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.2.1/gauge-python-0.2.1.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.2.1/gauge-python-0.2.1.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.2.1/gauge-python-0.2.1.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.2.1/gauge-python-0.2.1.zip"
                 }
-            }, 
+            },
             "install": {
-                "windows": [], 
-                "darwin": [], 
+                "windows": [],
+                "darwin": [],
                 "linux": []
             }
-        }, 
+        },
         {
-            "version": "0.2.0", 
+            "version": "0.2.0",
             "gaugeVersionSupport": {
-                "minimum": "0.8.0", 
+                "minimum": "0.8.0",
                 "maximum": ""
-            }, 
+            },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.2.0/gauge-python-0.2.0.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.2.0/gauge-python-0.2.0.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.2.0/gauge-python-0.2.0.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.2.0/gauge-python-0.2.0.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.2.0/gauge-python-0.2.0.zip"
-                }, 
+                },
                 "x64": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.2.0/gauge-python-0.2.0.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.2.0/gauge-python-0.2.0.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.2.0/gauge-python-0.2.0.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.2.0/gauge-python-0.2.0.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.2.0/gauge-python-0.2.0.zip"
                 }
-            }, 
+            },
             "install": {
-                "windows": [], 
-                "darwin": [], 
+                "windows": [],
+                "darwin": [],
                 "linux": []
             }
-        }, 
+        },
         {
-            "version": "0.1.7", 
+            "version": "0.1.7",
             "gaugeVersionSupport": {
-                "minimum": "0.6.0", 
+                "minimum": "0.6.0",
                 "maximum": "0.7.0"
-            }, 
+            },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.7/gauge-python-0.1.7.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.7/gauge-python-0.1.7.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.7/gauge-python-0.1.7.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.7/gauge-python-0.1.7.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.1.7/gauge-python-0.1.7.zip"
-                }, 
+                },
                 "x64": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.7/gauge-python-0.1.7.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.7/gauge-python-0.1.7.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.7/gauge-python-0.1.7.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.7/gauge-python-0.1.7.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.1.7/gauge-python-0.1.7.zip"
                 }
-            }, 
+            },
             "install": {
-                "windows": [], 
-                "darwin": [], 
+                "windows": [],
+                "darwin": [],
                 "linux": []
             }
-        }, 
+        },
         {
-            "version": "0.1.6", 
+            "version": "0.1.6",
             "gaugeVersionSupport": {
-                "minimum": "0.6.0", 
+                "minimum": "0.6.0",
                 "maximum": ""
-            }, 
+            },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.6/gauge-python-0.1.6.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.6/gauge-python-0.1.6.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.6/gauge-python-0.1.6.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.6/gauge-python-0.1.6.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.1.6/gauge-python-0.1.6.zip"
-                }, 
+                },
                 "x64": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.6/gauge-python-0.1.6.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.6/gauge-python-0.1.6.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.6/gauge-python-0.1.6.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.6/gauge-python-0.1.6.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.1.6/gauge-python-0.1.6.zip"
                 }
-            }, 
+            },
             "install": {
-                "windows": [], 
-                "darwin": [], 
+                "windows": [],
+                "darwin": [],
                 "linux": []
             }
-        }, 
+        },
         {
-            "version": "0.1.5", 
+            "version": "0.1.5",
             "gaugeVersionSupport": {
-                "minimum": "0.5.0", 
+                "minimum": "0.5.0",
                 "maximum": ""
-            }, 
+            },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.5/gauge-python-0.1.5.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.5/gauge-python-0.1.5.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.5/gauge-python-0.1.5.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.5/gauge-python-0.1.5.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.1.5/gauge-python-0.1.5.zip"
-                }, 
+                },
                 "x64": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.5/gauge-python-0.1.5.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.5/gauge-python-0.1.5.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.5/gauge-python-0.1.5.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.5/gauge-python-0.1.5.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.1.5/gauge-python-0.1.5.zip"
                 }
-            }, 
+            },
             "install": {
-                "windows": [], 
-                "darwin": [], 
+                "windows": [],
+                "darwin": [],
                 "linux": []
             }
-        }, 
+        },
         {
-            "version": "0.1.4", 
+            "version": "0.1.4",
             "gaugeVersionSupport": {
-                "minimum": "0.5.0", 
+                "minimum": "0.5.0",
                 "maximum": ""
-            }, 
+            },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.4/gauge-python-0.1.4.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.4/gauge-python-0.1.4.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.4/gauge-python-0.1.4.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.4/gauge-python-0.1.4.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.1.4/gauge-python-0.1.4.zip"
-                }, 
+                },
                 "x64": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.4/gauge-python-0.1.4.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.4/gauge-python-0.1.4.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.4/gauge-python-0.1.4.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.4/gauge-python-0.1.4.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.1.4/gauge-python-0.1.4.zip"
                 }
-            }, 
+            },
             "install": {
-                "windows": [], 
-                "darwin": [], 
+                "windows": [],
+                "darwin": [],
                 "linux": []
             }
-        }, 
+        },
         {
-            "version": "0.1.3", 
+            "version": "0.1.3",
             "gaugeVersionSupport": {
-                "minimum": "0.5.0", 
+                "minimum": "0.5.0",
                 "maximum": ""
-            }, 
+            },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.3/gauge-python-0.1.3.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.3/gauge-python-0.1.3.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.3/gauge-python-0.1.3.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.3/gauge-python-0.1.3.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.1.3/gauge-python-0.1.3.zip"
-                }, 
+                },
                 "x64": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.3/gauge-python-0.1.3.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.3/gauge-python-0.1.3.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.3/gauge-python-0.1.3.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.3/gauge-python-0.1.3.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.1.3/gauge-python-0.1.3.zip"
                 }
-            }, 
+            },
             "install": {
-                "windows": [], 
-                "darwin": [], 
+                "windows": [],
+                "darwin": [],
                 "linux": []
             }
-        }, 
+        },
         {
-            "version": "0.1.2", 
+            "version": "0.1.2",
             "gaugeVersionSupport": {
-                "minimum": "0.3.0", 
+                "minimum": "0.3.0",
                 "maximum": ""
-            }, 
+            },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.2/gauge-python-0.1.2.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.2/gauge-python-0.1.2.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.2/gauge-python-0.1.2.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.2/gauge-python-0.1.2.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.1.2/gauge-python-0.1.2.zip"
-                }, 
+                },
                 "x64": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.2/gauge-python-0.1.2.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.2/gauge-python-0.1.2.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.2/gauge-python-0.1.2.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.2/gauge-python-0.1.2.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.1.2/gauge-python-0.1.2.zip"
                 }
-            }, 
+            },
             "install": {
-                "windows": [], 
-                "darwin": [], 
+                "windows": [],
+                "darwin": [],
                 "linux": []
             }
-        }, 
+        },
         {
-            "version": "0.1.1", 
+            "version": "0.1.1",
             "gaugeVersionSupport": {
-                "minimum": "0.3.0", 
+                "minimum": "0.3.0",
                 "maximum": ""
-            }, 
+            },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.1/gauge-python-0.1.1.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.1/gauge-python-0.1.1.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.1/gauge-python-0.1.1.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.1/gauge-python-0.1.1.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.1.1/gauge-python-0.1.1.zip"
-                }, 
+                },
                 "x64": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.1/gauge-python-0.1.1.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.1/gauge-python-0.1.1.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.1/gauge-python-0.1.1.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.1/gauge-python-0.1.1.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.1.1/gauge-python-0.1.1.zip"
                 }
-            }, 
+            },
             "install": {
-                "windows": [], 
-                "darwin": [], 
+                "windows": [],
+                "darwin": [],
                 "linux": []
             }
-        }, 
+        },
         {
-            "version": "0.1.0", 
+            "version": "0.1.0",
             "gaugeVersionSupport": {
-                "minimum": "0.3.0", 
+                "minimum": "0.3.0",
                 "maximum": ""
-            }, 
+            },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.0/gauge-python-0.1.0.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.0/gauge-python-0.1.0.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.0/gauge-python-0.1.0.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.0/gauge-python-0.1.0.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.1.0/gauge-python-0.1.0.zip"
-                }, 
+                },
                 "x64": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.0/gauge-python-0.1.0.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.0/gauge-python-0.1.0.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.1.0/gauge-python-0.1.0.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.1.0/gauge-python-0.1.0.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.1.0/gauge-python-0.1.0.zip"
                 }
-            }, 
+            },
             "install": {
-                "windows": [], 
-                "darwin": [], 
+                "windows": [],
+                "darwin": [],
                 "linux": []
             }
-        }, 
+        },
         {
-            "version": "0.0.3", 
+            "version": "0.0.3",
             "gaugeVersionSupport": {
-                "minimum": "0.3.0", 
+                "minimum": "0.3.0",
                 "maximum": ""
-            }, 
+            },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.0.3/gauge-python-0.0.3.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.0.3/gauge-python-0.0.3.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.0.3/gauge-python-0.0.3.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.0.3/gauge-python-0.0.3.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.0.3/gauge-python-0.0.3.zip"
-                }, 
+                },
                 "x64": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.0.3/gauge-python-0.0.3.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.0.3/gauge-python-0.0.3.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.0.3/gauge-python-0.0.3.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.0.3/gauge-python-0.0.3.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.0.3/gauge-python-0.0.3.zip"
                 }
-            }, 
+            },
             "install": {
-                "windows": [], 
-                "darwin": [], 
+                "windows": [],
+                "darwin": [],
                 "linux": []
             }
-        }, 
+        },
         {
-            "version": "0.0.2", 
+            "version": "0.0.2",
             "gaugeVersionSupport": {
-                "minimum": "0.3.0", 
+                "minimum": "0.3.0",
                 "maximum": ""
-            }, 
+            },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.0.2/gauge-python-0.0.2.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.0.2/gauge-python-0.0.2.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.0.2/gauge-python-0.0.2.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.0.2/gauge-python-0.0.2.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.0.2/gauge-python-0.0.2.zip"
-                }, 
+                },
                 "x64": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.0.2/gauge-python-0.0.2.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.0.2/gauge-python-0.0.2.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.0.2/gauge-python-0.0.2.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.0.2/gauge-python-0.0.2.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.0.2/gauge-python-0.0.2.zip"
                 }
-            }, 
+            },
             "install": {
-                "windows": [], 
-                "darwin": [], 
+                "windows": [],
+                "darwin": [],
                 "linux": []
             }
-        }, 
+        },
         {
-            "version": "0.0.1", 
+            "version": "0.0.1",
             "gaugeVersionSupport": {
-                "minimum": "0.3.0", 
+                "minimum": "0.3.0",
                 "maximum": ""
-            }, 
+            },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.0.1/gauge-python-0.0.1.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.0.1/gauge-python-0.0.1.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.0.1/gauge-python-0.0.1.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.0.1/gauge-python-0.0.1.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.0.1/gauge-python-0.0.1.zip"
-                }, 
+                },
                 "x64": {
-                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.0.1/gauge-python-0.0.1.zip", 
-                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.0.1/gauge-python-0.0.1.zip", 
+                    "windows": "https://github.com/kashishm/gauge-python/releases/download/v0.0.1/gauge-python-0.0.1.zip",
+                    "darwin": "https://github.com/kashishm/gauge-python/releases/download/v0.0.1/gauge-python-0.0.1.zip",
                     "linux": "https://github.com/kashishm/gauge-python/releases/download/v0.0.1/gauge-python-0.0.1.zip"
                 }
-            }, 
+            },
             "install": {
-                "windows": [], 
-                "darwin": [], 
+                "windows": [],
+                "darwin": [],
                 "linux": []
             }
         }
-    ], 
-    "name": "python", 
+    ],
+    "name": "python",
     "description": "Python language runner for Gauge"
 }
