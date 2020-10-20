@@ -3,6 +3,54 @@
     "name": "dotnet", 
     "versions": [
         {
+            "version": "0.2.0", 
+            "gaugeVersionSupport": {
+                "minimum": "1.0.7", 
+                "maximum": ""
+            }, 
+            "install": {
+                "windows": [], 
+                "darwin": [], 
+                "linux": []
+            }, 
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.2.0/gauge-dotnet-0.2.0.zip", 
+                    "darwin": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.2.0/gauge-dotnet-0.2.0.zip", 
+                    "linux": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.2.0/gauge-dotnet-0.2.0.zip"
+                }, 
+                "x64": {
+                    "windows": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.2.0/gauge-dotnet-0.2.0.zip", 
+                    "darwin": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.2.0/gauge-dotnet-0.2.0.zip", 
+                    "linux": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.2.0/gauge-dotnet-0.2.0.zip"
+                }
+            }
+        }, 
+        {
+            "version": "0.1.9", 
+            "gaugeVersionSupport": {
+                "minimum": "1.0.7", 
+                "maximum": ""
+            }, 
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.1.9/gauge-dotnet-0.1.9.zip", 
+                    "darwin": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.1.9/gauge-dotnet-0.1.9.zip", 
+                    "linux": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.1.9/gauge-dotnet-0.1.9.zip"
+                }, 
+                "x64": {
+                    "windows": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.1.9/gauge-dotnet-0.1.9.zip", 
+                    "darwin": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.1.9/gauge-dotnet-0.1.9.zip", 
+                    "linux": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.1.9/gauge-dotnet-0.1.9.zip"
+                }
+            }, 
+            "install": {
+                "windows": [], 
+                "darwin": [], 
+                "linux": []
+            }
+        }, 
+        {
             "version": "0.1.8", 
             "gaugeVersionSupport": {
                 "minimum": "1.0.7", 

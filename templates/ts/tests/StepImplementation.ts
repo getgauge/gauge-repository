@@ -1,6 +1,6 @@
 
-import { Step } from "gauge-ts";
-import { equal } from "assert";
+import { Step, Table } from "gauge-ts";
+import { strictEqual } from 'assert';
 
 export default class StepImplementation {
 
@@ -12,18 +12,21 @@ export default class StepImplementation {
     }
 
     @Step("The word <word> has <expectedCount> vowels.")
-    public async verifyVowelsCountInWord(word: string, expectedCount: number) {
-        equal(await this.countVowels(word), expectedCount);
+    public async verifyVowelsCountInWord(word: string, expectedCount: string) {
+        strictEqual(this.countVowels(word), parseInt(expectedCount));
     }
 
     @Step("Almost all words have vowels <wordsTable>")
-    public async verifyVowelsCountInMultipleWords(wordsTable: any) {
-        for (const row of wordsTable.rows) {
-            equal(await this.countVowels(row.cells[0]), parseInt(row.cells[1]));
+    public async verifyVowelsCountInMultipleWords(table: Table) {
+        for (let row of table.getTableRows()) {
+            let word: string = row.getCell("Word");
+            let expectedCount = parseInt(row.getCell("Vowel Count"));
+            let actualCount = this.countVowels(word);
+            strictEqual(expectedCount, actualCount);
         }
     }
 
-    private async countVowels(word: string) {
+    private countVowels(word: string) {
         return word.split("").filter((elem) => {
             return this.vowels.includes(elem);
         }).length;
