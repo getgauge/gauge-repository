@@ -3,6 +3,33 @@
     "description": "Send spec results to https://reportportal.io",
     "versions": [
         {
+            "version": "1.11.1",
+            "gaugeVersionSupport": {
+                "minimum": "1.0.7",
+                "maximum": ""
+            },
+
+            "install": {
+                "windows": [],
+                "linux": [],
+                "darwin": []
+            },
+
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/reportportal/agent-net-gauge/releases/download/1.11.1/reportportal-1.11.1-win-x86.zip",
+                    "linux": "",
+                    "darwin": ""
+                },
+                "x64": {
+                    "windows": "https://github.com/reportportal/agent-net-gauge/releases/download/1.11.1/reportportal-1.11.1-win-x64.zip",
+                    "linux": "https://github.com/reportportal/agent-net-gauge/releases/download/1.11.1/reportportal-1.11.1-linux-x64.zip",
+                    "darwin": "https://github.com/reportportal/agent-net-gauge/releases/download/1.11.1/reportportal-1.11.1-osx-x64.zip"
+                }
+
+            }
+        },
+        {
             "version": "1.11.0",
             "gaugeVersionSupport": {
                 "minimum": "1.0.7",
