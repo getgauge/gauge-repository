@@ -1,0 +1,30 @@
+{
+    "name": "inprogress",
+    "description": "A Plugin for tracking in-progress specs/scenarios.",
+    "versions": [
+        {
+            "version": "0.2.0",
+            "gaugeVersionSupport": {
+                "minimum": "1.0.7",
+                "maximum": ""
+            },
+            "install": {
+                "windows": [],
+                "linux": [],
+                "darwin": []
+            },
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/sitture/gauge-inprogress/releases/download/v0.2.0/inprogress-0.2.0-windows.x86.zip",
+                    "linux": "https://github.com/sitture/gauge-inprogress/releases/download/v0.2.0/inprogress-0.2.0-linux.x86.zip",
+                    "darwin": "https://github.com/sitture/gauge-inprogress/releases/download/v0.2.0/inprogress-0.2.0-darwin.x86.zip"
+                },
+                "x64": {
+                    "windows": "https://github.com/sitture/gauge-inprogress/releases/download/v0.2.0/inprogress-0.2.0-windows.x86_64.zip",
+                    "linux": "https://github.com/sitture/gauge-inprogress/releases/download/v0.2.0/inprogress-0.2.0-linux.x86_64.zip",
+                    "darwin": "https://github.com/sitture/gauge-inprogress/releases/download/v0.2.0/inprogress-0.2.0-darwin.x86_64.zip"
+                }
+            }
+        }
+    ]
+}
