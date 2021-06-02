@@ -1,6 +1,30 @@
 {
     "versions": [
         {
+            "version": "2.3.17",
+            "gaugeVersionSupport": {
+                "minimum": "1.0.0",
+                "maximum": ""
+            },
+            "install": {
+                "windows": [],
+                "darwin": [],
+                "linux": []
+            },
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v2.3.17/gauge-js-2.3.17.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v2.3.17/gauge-js-2.3.17.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v2.3.17/gauge-js-2.3.17.zip"
+                },
+                "x64": {
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v2.3.17/gauge-js-2.3.17.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v2.3.17/gauge-js-2.3.17.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v2.3.17/gauge-js-2.3.17.zip"
+                }
+            }
+        },
+        {
             "version": "2.3.16",
             "gaugeVersionSupport": {
                 "minimum": "1.0.0",
