@@ -15,14 +15,14 @@
             },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge-contrib/json-report/releases/download/v0.3.5/json-report-0.3.6-windows.x86.zip",
-                    "linux": "https://github.com/getgauge-contrib/json-report/releases/download/v0.3.5/json-report-0.3.6-linux.x86.zip",
-                    "darwin": "https://github.com/getgauge-contrib/json-report/releases/download/v0.3.5/json-report-0.3.6-darwin.x86.zip"
+                    "windows": "https://github.com/getgauge-contrib/json-report/releases/download/v0.3.6/json-report-0.3.6-windows.x86.zip",
+                    "linux": "https://github.com/getgauge-contrib/json-report/releases/download/v0.3.6/json-report-0.3.6-linux.x86.zip",
+                    "darwin": "https://github.com/getgauge-contrib/json-report/releases/download/v0.3.6/json-report-0.3.6-darwin.x86.zip"
                 },
                 "x64": {
-                    "windows": "https://github.com/getgauge-contrib/json-report/releases/download/v0.3.5/json-report-0.3.6-windows.x86_64.zip",
-                    "linux": "https://github.com/getgauge-contrib/json-report/releases/download/v0.3.5/json-report-0.3.6-linux.x86_64.zip",
-                    "darwin": "https://github.com/getgauge-contrib/json-report/releases/download/v0.3.5/json-report-0.3.6-darwin.x86_64.zip"
+                    "windows": "https://github.com/getgauge-contrib/json-report/releases/download/v0.3.6/json-report-0.3.6-windows.x86_64.zip",
+                    "linux": "https://github.com/getgauge-contrib/json-report/releases/download/v0.3.6/json-report-0.3.6-linux.x86_64.zip",
+                    "darwin": "https://github.com/getgauge-contrib/json-report/releases/download/v0.3.6/json-report-0.3.6-darwin.x86_64.zip"
                 }
             }
         },
