@@ -21,6 +21,11 @@
                     "windows": "https://github.com/getgauge/gauge-js/releases/download/v2.3.17/gauge-js-2.3.17.zip",
                     "darwin": "https://github.com/getgauge/gauge-js/releases/download/v2.3.17/gauge-js-2.3.17.zip",
                     "linux": "https://github.com/getgauge/gauge-js/releases/download/v2.3.17/gauge-js-2.3.17.zip"
+                },
+                "arm64": {
+                    "windows": "https://github.com/getgauge/gauge-js/releases/download/v2.3.17/gauge-js-2.3.17.zip",
+                    "darwin": "https://github.com/getgauge/gauge-js/releases/download/v2.3.17/gauge-js-2.3.17.zip",
+                    "linux": "https://github.com/getgauge/gauge-js/releases/download/v2.3.17/gauge-js-2.3.17.zip"
                 }
             }
         },

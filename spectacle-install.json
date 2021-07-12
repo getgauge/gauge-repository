@@ -25,8 +25,12 @@
                     "windows": "https://github.com/getgauge/spectacle/releases/download/v0.1.4/spectacle-0.1.4-windows.x86_64.zip",
                     "linux": "https://github.com/getgauge/spectacle/releases/download/v0.1.4/spectacle-0.1.4-linux.x86_64.zip",
                     "darwin": "https://github.com/getgauge/spectacle/releases/download/v0.1.4/spectacle-0.1.4-darwin.x86_64.zip"
+                },
+                "arm64": {
+                    "windows": "",
+                    "linux": "",
+                    "darwin": "https://github.com/getgauge/spectacle/releases/download/v0.1.4/spectacle-0.1.4-darwin.x86_64.zip"
                 }
-
             }
         },
         {

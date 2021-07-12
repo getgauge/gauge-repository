@@ -23,6 +23,11 @@
                     "windows": "https://github.com/agilepathway/gauge-jira/releases/download/v0.4.2/gauge-jira-0.4.2-windows.x86_64.zip",
                     "linux": "https://github.com/agilepathway/gauge-jira/releases/download/v0.4.2/gauge-jira-0.4.2-linux.x86_64.zip",
                     "darwin": "https://github.com/agilepathway/gauge-jira/releases/download/v0.4.2/gauge-jira-0.4.2-darwin.x86_64.zip"
+                },
+                "arm64": {
+                    "windows": "",
+                    "linux": "",
+                    "darwin": "https://github.com/agilepathway/gauge-jira/releases/download/v0.4.2/gauge-jira-0.4.2-darwin.x86_64.zip"
                 }
             }
         },

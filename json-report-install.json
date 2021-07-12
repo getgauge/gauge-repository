@@ -23,6 +23,11 @@
                     "windows": "https://github.com/getgauge-contrib/json-report/releases/download/v0.3.6/json-report-0.3.6-windows.x86_64.zip",
                     "linux": "https://github.com/getgauge-contrib/json-report/releases/download/v0.3.6/json-report-0.3.6-linux.x86_64.zip",
                     "darwin": "https://github.com/getgauge-contrib/json-report/releases/download/v0.3.6/json-report-0.3.6-darwin.x86_64.zip"
+                },
+                "arm64": {
+                    "windows": "",
+                    "linux": "",
+                    "darwin": "https://github.com/getgauge-contrib/json-report/releases/download/v0.3.6/json-report-0.3.6-darwin.x86_64.zip"
                 }
             }
         },
