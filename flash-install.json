@@ -22,6 +22,11 @@
                 "windows": "https://github.com/getgauge/Flash/releases/download/v0.0.2/flash-0.0.2-windows.x86_64.zip",
                 "linux": "https://github.com/getgauge/Flash/releases/download/v0.0.2/flash-0.0.2-linux.x86_64.zip",
                 "darwin": "https://github.com/getgauge/Flash/releases/download/v0.0.2/flash-0.0.2-darwin.x86_64.zip"
+            },
+            "arm64": {
+                "windows": "",
+                "linux": "",
+                "darwin": "https://github.com/getgauge/Flash/releases/download/v0.0.2/flash-0.0.2-darwin.x86_64.zip"
             }
         }
     }]

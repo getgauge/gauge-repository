@@ -25,8 +25,12 @@
                     "windows": "https://github.com/getgauge/xml-report/releases/download/v0.2.3/xml-report-0.2.3-windows.x86_64.zip",
                     "linux": "https://github.com/getgauge/xml-report/releases/download/v0.2.3/xml-report-0.2.3-linux.x86_64.zip",
                     "darwin": "https://github.com/getgauge/xml-report/releases/download/v0.2.3/xml-report-0.2.3-darwin.x86_64.zip"
+                },
+                "arm64": {
+                    "windows": "",
+                    "linux": "",
+                    "darwin": "https://github.com/getgauge/xml-report/releases/download/v0.2.3/xml-report-0.2.3-darwin.x86_64.zip"
                 }
-
             }
         },
         {

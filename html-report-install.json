@@ -3,29 +3,34 @@
     "name": "html-report",
     "versions": [
         {
-            "version": "4.1.0",
+            "version": "4.1.0", 
             "gaugeVersionSupport": {
-                "minimum": "1.0.7",
+                "minimum": "1.3.1", 
                 "maximum": ""
-            },
+            }, 
             "install": {
-                "windows": [],
-                "darwin": [],
+                "windows": [], 
+                "darwin": [], 
                 "linux": []
-            },
+            }, 
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge/html-report/releases/download/v4.1.0/html-report-4.1.0-windows.x86.zip",
-                    "darwin": "https://github.com/getgauge/html-report/releases/download/v4.1.0/html-report-4.1.0-darwin.x86.zip",
+                    "windows": "https://github.com/getgauge/html-report/releases/download/v4.1.0/html-report-4.1.0-windows.x86.zip", 
+                    "darwin": "", 
                     "linux": "https://github.com/getgauge/html-report/releases/download/v4.1.0/html-report-4.1.0-linux.x86.zip"
-                },
+                }, 
                 "x64": {
-                    "windows": "https://github.com/getgauge/html-report/releases/download/v4.1.0/html-report-4.1.0-windows.x86_64.zip",
-                    "darwin": "https://github.com/getgauge/html-report/releases/download/v4.1.0/html-report-4.1.0-darwin.x86_64.zip",
+                    "windows": "https://github.com/getgauge/html-report/releases/download/v4.1.0/html-report-4.1.0-windows.x86_64.zip", 
+                    "darwin": "https://github.com/getgauge/html-report/releases/download/v4.1.0/html-report-4.1.0-darwin.x86_64.zip", 
                     "linux": "https://github.com/getgauge/html-report/releases/download/v4.1.0/html-report-4.1.0-linux.x86_64.zip"
+                },
+                "arm64": {
+                    "windows": "", 
+                    "darwin": "https://github.com/getgauge/html-report/releases/download/v4.1.0/html-report-4.1.0-darwin.arm64.zip", 
+                    "linux": "https://github.com/getgauge/html-report/releases/download/v4.1.0/html-report-4.1.0-linux.arm64.zip"
                 }
             }
-        },
+        }, 
         {
             "version": "4.0.12",
             "gaugeVersionSupport": {

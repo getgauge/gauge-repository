@@ -21,6 +21,11 @@
                     "windows": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.4.1/gauge-dotnet-0.4.1.zip",
                     "darwin": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.4.1/gauge-dotnet-0.4.1.zip",
                     "linux": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.4.1/gauge-dotnet-0.4.1.zip"
+                },
+                "arm64": {
+                    "windows": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.4.1/gauge-dotnet-0.4.1.zip",
+                    "darwin": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.4.1/gauge-dotnet-0.4.1.zip",
+                    "linux": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.4.1/gauge-dotnet-0.4.1.zip"
                 }
             }
         },

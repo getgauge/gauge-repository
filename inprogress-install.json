@@ -23,7 +23,13 @@
                     "windows": "https://github.com/sitture/gauge-inprogress/releases/download/v0.2.0/inprogress-0.2.0-windows.x86_64.zip",
                     "linux": "https://github.com/sitture/gauge-inprogress/releases/download/v0.2.0/inprogress-0.2.0-linux.x86_64.zip",
                     "darwin": "https://github.com/sitture/gauge-inprogress/releases/download/v0.2.0/inprogress-0.2.0-darwin.x86_64.zip"
+                },
+                "arm64": {
+                    "windows": "",
+                    "linux": "",
+                    "darwin": "https://github.com/sitture/gauge-inprogress/releases/download/v0.2.0/inprogress-0.2.0-darwin.x86_64.zip"
                 }
+
             }
         }
     ]
