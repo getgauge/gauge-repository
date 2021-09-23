@@ -3,6 +3,30 @@
     "description": "A documentation plugin that publishes Gauge specifications to Confluence.",
     "versions": [
         {
+            "version": "0.18.0",
+            "gaugeVersionSupport": {
+                "minimum": "1.0.7",
+                "maximum": ""
+            },
+            "install": {
+                "windows": [],
+                "linux": [],
+                "darwin": []
+            },
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/agilepathway/gauge-confluence/releases/download/v0.18.0/gauge-confluence-0.18.0-windows.x86.zip",
+                    "linux": "https://github.com/agilepathway/gauge-confluence/releases/download/v0.18.0/gauge-confluence-0.18.0-linux.x86.zip",
+                    "darwin": ""
+                },
+                "x64": {
+                    "windows": "https://github.com/agilepathway/gauge-confluence/releases/download/v0.18.0/gauge-confluence-0.18.0-windows.x86_64.zip",
+                    "linux": "https://github.com/agilepathway/gauge-confluence/releases/download/v0.18.0/gauge-confluence-0.18.0-linux.x86_64.zip",
+                    "darwin": "https://github.com/agilepathway/gauge-confluence/releases/download/v0.18.0/gauge-confluence-0.18.0-darwin.x86_64.zip"
+                }
+            }
+        },
+        {
             "version": "0.17.0",
             "gaugeVersionSupport": {
                 "minimum": "1.0.7",
