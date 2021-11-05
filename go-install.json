@@ -3,6 +3,37 @@
     "description": "Go language runner for Gauge",
     "versions": [
          {
+            "version": "0.2.0",
+            "gaugeVersionSupport": {
+                "minimum": "0.8.0",
+                "maximum": ""
+            },
+
+            "install": {
+                "windows": [],
+                "linux": [],
+                "darwin": []
+            },
+
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/getgauge-contrib/gauge-go/releases/download/v0.2.0/gauge-go-0.2.0-windows.x86.zip",
+                    "linux": "https://github.com/getgauge-contrin/gauge-go/releases/download/v0.2.0/gauge-go-0.2.0-linux.x86.zip",
+                    "darwin": "https://github.com/getgauge-contrib/gauge-go/releases/download/v0.2.0/gauge-go-0.2.0-darwin.x86.zip"
+                },
+                "x64": {
+                    "windows": "https://github.com/getgauge-contrib/gauge-go/releases/download/v0.2.0/gauge-go-0.2.0-windows.x86_64.zip",
+                    "linux": "https://github.com/getgauge-contrib/gauge-go/releases/download/v0.2.0/gauge-go-0.2.0-linux.x86_64.zip",
+                    "darwin": "https://github.com/getgauge-contrib/gauge-go/releases/download/v0.2.0/gauge-go-0.2.0-darwin.x86_64.zip"
+                },
+                "arm64": {
+                    "windows": "",
+                    "linux": "",
+                    "darwin": "https://github.com/getgauge-contrib/gauge-go/releases/download/v0.2.0/gauge-go-0.2.0-darwin.x86_64.zip"
+                }
+            }
+        },
+         {
             "version": "0.1.4",
             "gaugeVersionSupport": {
                 "minimum": "0.8.0",
