@@ -23,9 +23,9 @@
                     "linux": "https://github.com/getgauge/gauge-java/releases/download/v0.8.1/gauge-java-0.8.1-linux.x86_64.zip"
                 },
                 "arm64": {
-                    "windows": "https://github.com/getgauge/gauge-java/releases/download/v0.8.1/gauge-java-0.8.1-windows.x86_64.zip",
-                    "darwin": "https://github.com/getgauge/gauge-java/releases/download/v0.8.1/gauge-java-0.8.1-darwin.x86_64.zip",
-                    "linux": "https://github.com/getgauge/gauge-java/releases/download/v0.8.1/gauge-java-0.8.1-linux.x86_64.zip"
+                    "windows": "",
+                    "darwin": "https://github.com/getgauge/gauge-java/releases/download/v0.8.1/gauge-java-0.8.1-darwin.arm64.zip",
+                    "linux": "https://github.com/getgauge/gauge-java/releases/download/v0.8.1/gauge-java-0.8.1-linux.arm64.zip"
                 }
             }
         },
@@ -50,11 +50,6 @@
                     "windows": "https://github.com/getgauge/gauge-java/releases/download/v0.8.0/gauge-java-0.8.0-windows.x86_64.zip",
                     "darwin": "https://github.com/getgauge/gauge-java/releases/download/v0.8.0/gauge-java-0.8.0-darwin.x86_64.zip",
                     "linux": "https://github.com/getgauge/gauge-java/releases/download/v0.8.0/gauge-java-0.8.0-linux.x86_64.zip"
-                },
-                "arm64": {
-                    "windows": "https://github.com/getgauge/gauge-java/releases/download/v0.8.0/gauge-java-0.8.0-windows.x86_64.zip",
-                    "darwin": "https://github.com/getgauge/gauge-java/releases/download/v0.8.0/gauge-java-0.8.0-darwin.x86_64.zip",
-                    "linux": "https://github.com/getgauge/gauge-java/releases/download/v0.8.0/gauge-java-0.8.0-linux.x86_64.zip"
                 }
             }
         },
@@ -76,11 +71,6 @@
                     "linux": "https://github.com/getgauge/gauge-java/releases/download/v0.7.15/gauge-java-0.7.15-linux.x86.zip"
                 },
                 "x64": {
-                    "windows": "https://github.com/getgauge/gauge-java/releases/download/v0.7.15/gauge-java-0.7.15-windows.x86_64.zip",
-                    "darwin": "https://github.com/getgauge/gauge-java/releases/download/v0.7.15/gauge-java-0.7.15-darwin.x86_64.zip",
-                    "linux": "https://github.com/getgauge/gauge-java/releases/download/v0.7.15/gauge-java-0.7.15-linux.x86_64.zip"
-                },
-                "arm64": {
                     "windows": "https://github.com/getgauge/gauge-java/releases/download/v0.7.15/gauge-java-0.7.15-windows.x86_64.zip",
                     "darwin": "https://github.com/getgauge/gauge-java/releases/download/v0.7.15/gauge-java-0.7.15-darwin.x86_64.zip",
                     "linux": "https://github.com/getgauge/gauge-java/releases/download/v0.7.15/gauge-java-0.7.15-linux.x86_64.zip"
