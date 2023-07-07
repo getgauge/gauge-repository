@@ -3,6 +3,35 @@
     "description": "A Plugin for tracking in-progress specs/scenarios.",
     "versions": [
         {
+            "version": "0.4.0",
+            "gaugeVersionSupport": {
+                "minimum": "1.0.7",
+                "maximum": ""
+            },
+            "install": {
+                "windows": [],
+                "linux": [],
+                "darwin": []
+            },
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/sitture/gauge-inprogress/releases/download/v0.4.0/inprogress-0.4.0-windows.386.zip",
+                    "linux": "https://github.com/sitture/gauge-inprogress/releases/download/v0.4.0/inprogress-0.4.0-linux.386.zip",
+                    "darwin": ""
+                },
+                "x64": {
+                    "windows": "https://github.com/sitture/gauge-inprogress/releases/download/v0.4.0/inprogress-0.4.0-windows.x86_64.zip",
+                    "linux": "https://github.com/sitture/gauge-inprogress/releases/download/v0.4.0/inprogress-0.4.0-linux.x86_64.zip",
+                    "darwin": "https://github.com/sitture/gauge-inprogress/releases/download/v0.4.0/inprogress-0.4.0-darwin.x86_64.zip"
+                },
+                "arm64": {
+                    "windows": "",
+                    "linux": "https://github.com/sitture/gauge-inprogress/releases/download/v0.4.0/inprogress-0.4.0-linux.arm64.zip",
+                    "darwin": "https://github.com/sitture/gauge-inprogress/releases/download/v0.4.0/inprogress-0.4.0-darwin.arm64.zip"
+                }
+            }
+        },
+        {
             "version": "0.3.0",
             "gaugeVersionSupport": {
                 "minimum": "1.0.7",
@@ -29,7 +58,6 @@
                     "linux": "https://github.com/sitture/gauge-inprogress/releases/download/v0.3.0/inprogress-0.3.0-linux.arm64.zip",
                     "darwin": "https://github.com/sitture/gauge-inprogress/releases/download/v0.3.0/inprogress-0.3.0-darwin.arm64.zip"
                 }
-
             }
         },
         {
@@ -59,7 +87,6 @@
                     "linux": "",
                     "darwin": "https://github.com/sitture/gauge-inprogress/releases/download/v0.2.0/inprogress-0.2.0-darwin.x86_64.zip"
                 }
-
             }
         }
     ]
