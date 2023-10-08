@@ -20,7 +20,7 @@ if source_build || (!version.nil? && version.include?('nightly'))
     source "https://rubygems.org"
 
     gem 'test-unit', :group => [:development, :test]
-    gem 'gauge-ruby', '~>#{v}', :github => 'getgauge/gauge-ruby', :branch => '#{gem_branch}', :group => [:development, :test]
+    gem 'gauge-ruby', '~>#{v}', :git => 'https://github.com/getgauge/gauge-ruby', :branch => '#{gem_branch}', :group => [:development, :test]
     eot
     file.write(gemfile_content)
   end
