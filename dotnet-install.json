@@ -1,6 +1,35 @@
 {
     "versions": [
         {
+            "version": "0.5.7",
+            "gaugeVersionSupport": {
+                "minimum": "1.0.7",
+                "maximum": ""
+            },
+            "install": {
+                "windows": [],
+                "darwin": [],
+                "linux": []
+            },
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.5.7/gauge-dotnet-0.5.7.zip",
+                    "darwin": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.5.7/gauge-dotnet-0.5.7.zip",
+                    "linux": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.5.7/gauge-dotnet-0.5.7.zip"
+                },
+                "x64": {
+                    "windows": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.5.7/gauge-dotnet-0.5.7.zip",
+                    "darwin": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.5.7/gauge-dotnet-0.5.7.zip",
+                    "linux": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.5.7/gauge-dotnet-0.5.7.zip"
+                },
+                "arm64": {
+                    "windows": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.5.7/gauge-dotnet-0.5.7.zip",
+                    "darwin": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.5.7/gauge-dotnet-0.5.7.zip",
+                    "linux": "https://github.com/getgauge/gauge-dotnet/releases/download/v0.5.7/gauge-dotnet-0.5.7.zip"
+                }
+            }
+        },
+        {
             "version": "0.5.6",
             "gaugeVersionSupport": {
                 "minimum": "1.0.7",
