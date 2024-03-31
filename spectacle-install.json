@@ -15,9 +15,9 @@
             },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge/spectacle/releases/download/v0.2.0/spectacle-0.2.0-windows.x86.zip",
-                    "linux": "https://github.com/getgauge/spectacle/releases/download/v0.2.0/spectacle-0.2.0-linux.x86.zip",
-                    "darwin": "https://github.com/getgauge/spectacle/releases/download/v0.2.0/spectacle-0.2.0-darwin.x86.zip"
+                    "windows": "",
+                    "linux": "",
+                    "darwin": ""
                 },
                 "x64": {
                     "windows": "https://github.com/getgauge/spectacle/releases/download/v0.2.0/spectacle-0.2.0-windows.x86_64.zip",
@@ -25,7 +25,7 @@
                     "darwin": "https://github.com/getgauge/spectacle/releases/download/v0.2.0/spectacle-0.2.0-darwin.x86_64.zip"
                 },
                 "arm64": {
-                    "windows": "",
+                    "windows": "https://github.com/getgauge/spectacle/releases/download/v0.2.0/spectacle-0.2.0-windows.x86_64.zip",
                     "linux": "",
                     "darwin": "https://github.com/getgauge/spectacle/releases/download/v0.2.0/spectacle-0.2.0-darwin.x86_64.zip"
                 }
