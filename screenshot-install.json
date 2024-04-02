@@ -27,7 +27,7 @@
                 "arm64": {
                     "windows": "https://github.com/getgauge/gauge_screenshot/releases/download/v0.2.0/screenshot-0.2.0-windows.arm64.zip",
                     "linux": "https://github.com/getgauge/gauge_screenshot/releases/download/v0.2.0/screenshot-0.2.0-linux.arm64.zip",
-                    "darwin": "https://github.com/getgauge/gauge_screenshot/releases/download/v0.2.0/screenshot-0.2.0-darwin.x86_64.zip"
+                    "darwin": "https://github.com/getgauge/gauge_screenshot/releases/download/v0.2.0/screenshot-0.2.0-darwin.arm64.zip"
                 }
             }
         },
