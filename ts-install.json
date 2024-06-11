@@ -3,6 +3,35 @@
     "description": "Typescript language runner for gauge",
     "versions": [
         {
+            "version": "0.3.1",
+            "gaugeVersionSupport": {
+                "minimum": "1.0.7",
+                "maximum": ""
+            },
+            "install": {
+                "windows": [],
+                "linux": [],
+                "darwin": []
+            },
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/getgauge/gauge-ts/releases/download/v0.3.1/gauge-ts-0.3.1.zip",
+                    "linux": "https://github.com/getgauge/gauge-ts/releases/download/v0.3.1/gauge-ts-0.3.1.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ts/releases/download/v0.3.1/gauge-ts-0.3.1.zip"
+                },
+                "x64": {
+                    "windows": "https://github.com/getgauge/gauge-ts/releases/download/v0.3.1/gauge-ts-0.3.1.zip",
+                    "linux": "https://github.com/getgauge/gauge-ts/releases/download/v0.3.1/gauge-ts-0.3.1.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ts/releases/download/v0.3.1/gauge-ts-0.3.1.zip"
+                },
+                "arm64": {
+                    "windows": "https://github.com/getgauge/gauge-ts/releases/download/v0.3.1/gauge-ts-0.3.1.zip",
+                    "linux": "https://github.com/getgauge/gauge-ts/releases/download/v0.3.1/gauge-ts-0.3.1.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ts/releases/download/v0.3.1/gauge-ts-0.3.1.zip"
+                }
+            }
+        },
+        {
             "version": "0.3.0",
             "gaugeVersionSupport": {
                 "minimum": "1.0.7",
@@ -13,7 +42,6 @@
                 "linux": [],
                 "darwin": []
             },
-
             "DownloadUrls": {
                 "x86": {
                     "windows": "https://github.com/getgauge/gauge-ts/releases/download/v0.3.0/gauge-ts-0.3.0.zip",
@@ -43,7 +71,6 @@
                 "linux": [],
                 "darwin": []
             },
-
             "DownloadUrls": {
                 "x86": {
                     "windows": "https://github.com/getgauge/gauge-ts/releases/download/v0.1.1/gauge-ts-0.1.1.zip",
@@ -73,7 +100,6 @@
                 "linux": [],
                 "darwin": []
             },
-
             "DownloadUrls": {
                 "x86": {
                     "windows": "https://github.com/getgauge/gauge-ts/releases/download/v0.1.0/gauge-ts-0.1.0.zip",
@@ -103,7 +129,6 @@
                 "linux": [],
                 "darwin": []
             },
-
             "DownloadUrls": {
                 "x86": {
                     "windows": "https://github.com/getgauge/gauge-ts/releases/download/v0.0.5/gauge-ts-0.0.5.zip",
@@ -128,7 +153,6 @@
                 "linux": [],
                 "darwin": []
             },
-
             "DownloadUrls": {
                 "x86": {
                     "windows": "https://github.com/getgauge/gauge-ts/releases/download/v0.0.4/gauge-ts-0.0.4.zip",
@@ -153,7 +177,6 @@
                 "linux": [],
                 "darwin": []
             },
-
             "DownloadUrls": {
                 "x86": {
                     "windows": "https://github.com/getgauge/gauge-ts/releases/download/v0.0.2/gauge-ts-0.0.2.zip",
