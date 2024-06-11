@@ -3,6 +3,36 @@
     "description": "Typescript language runner for gauge",
     "versions": [
         {
+            "version": "0.3.0",
+            "gaugeVersionSupport": {
+                "minimum": "1.0.7",
+                "maximum": ""
+            },
+            "install": {
+                "windows": [],
+                "linux": [],
+                "darwin": []
+            },
+
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/getgauge/gauge-ts/releases/download/v0.3.0/gauge-ts-0.3.0.zip",
+                    "linux": "https://github.com/getgauge/gauge-ts/releases/download/v0.3.0/gauge-ts-0.3.0.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ts/releases/download/v0.3.0/gauge-ts-0.3.0.zip"
+                },
+                "x64": {
+                    "windows": "https://github.com/getgauge/gauge-ts/releases/download/v0.3.0/gauge-ts-0.3.0.zip",
+                    "linux": "https://github.com/getgauge/gauge-ts/releases/download/v0.3.0/gauge-ts-0.3.0.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ts/releases/download/v0.3.0/gauge-ts-0.3.0.zip"
+                },
+                "arm64": {
+                    "windows": "https://github.com/getgauge/gauge-ts/releases/download/v0.3.0/gauge-ts-0.3.0.zip",
+                    "linux": "https://github.com/getgauge/gauge-ts/releases/download/v0.3.0/gauge-ts-0.3.0.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ts/releases/download/v0.3.0/gauge-ts-0.3.0.zip"
+                }
+            }
+        },
+        {
             "version": "0.1.1",
             "gaugeVersionSupport": {
                 "minimum": "1.0.7",
@@ -16,19 +46,19 @@
 
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/BugDiver/gauge-ts/releases/download/v0.1.1/gauge-ts-0.1.1.zip",
-                    "linux": "https://github.com/BugDiver/gauge-ts/releases/download/v0.1.1/gauge-ts-0.1.1.zip",
-                    "darwin": "https://github.com/BugDiver/gauge-ts/releases/download/v0.1.1/gauge-ts-0.1.1.zip"
+                    "windows": "https://github.com/getgauge/gauge-ts/releases/download/v0.1.1/gauge-ts-0.1.1.zip",
+                    "linux": "https://github.com/getgauge/gauge-ts/releases/download/v0.1.1/gauge-ts-0.1.1.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ts/releases/download/v0.1.1/gauge-ts-0.1.1.zip"
                 },
                 "x64": {
-                    "windows": "https://github.com/BugDiver/gauge-ts/releases/download/v0.1.1/gauge-ts-0.1.1.zip",
-                    "linux": "https://github.com/BugDiver/gauge-ts/releases/download/v0.1.1/gauge-ts-0.1.1.zip",
-                    "darwin": "https://github.com/BugDiver/gauge-ts/releases/download/v0.1.1/gauge-ts-0.1.1.zip"
+                    "windows": "https://github.com/getgauge/gauge-ts/releases/download/v0.1.1/gauge-ts-0.1.1.zip",
+                    "linux": "https://github.com/getgauge/gauge-ts/releases/download/v0.1.1/gauge-ts-0.1.1.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ts/releases/download/v0.1.1/gauge-ts-0.1.1.zip"
                 },
                 "arm64": {
-                    "windows": "https://github.com/BugDiver/gauge-ts/releases/download/v0.1.1/gauge-ts-0.1.1.zip",
-                    "linux": "https://github.com/BugDiver/gauge-ts/releases/download/v0.1.1/gauge-ts-0.1.1.zip",
-                    "darwin": "https://github.com/BugDiver/gauge-ts/releases/download/v0.1.1/gauge-ts-0.1.1.zip"
+                    "windows": "https://github.com/getgauge/gauge-ts/releases/download/v0.1.1/gauge-ts-0.1.1.zip",
+                    "linux": "https://github.com/getgauge/gauge-ts/releases/download/v0.1.1/gauge-ts-0.1.1.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ts/releases/download/v0.1.1/gauge-ts-0.1.1.zip"
                 }
             }
         },
@@ -46,19 +76,19 @@
 
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/BugDiver/gauge-ts/releases/download/v0.1.0/gauge-ts-0.1.0.zip",
-                    "linux": "https://github.com/BugDiver/gauge-ts/releases/download/v0.1.0/gauge-ts-0.1.0.zip",
-                    "darwin": "https://github.com/BugDiver/gauge-ts/releases/download/v0.1.0/gauge-ts-0.1.0.zip"
+                    "windows": "https://github.com/getgauge/gauge-ts/releases/download/v0.1.0/gauge-ts-0.1.0.zip",
+                    "linux": "https://github.com/getgauge/gauge-ts/releases/download/v0.1.0/gauge-ts-0.1.0.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ts/releases/download/v0.1.0/gauge-ts-0.1.0.zip"
                 },
                 "x64": {
-                    "windows": "https://github.com/BugDiver/gauge-ts/releases/download/v0.1.0/gauge-ts-0.1.0.zip",
-                    "linux": "https://github.com/BugDiver/gauge-ts/releases/download/v0.1.0/gauge-ts-0.1.0.zip",
-                    "darwin": "https://github.com/BugDiver/gauge-ts/releases/download/v0.1.0/gauge-ts-0.1.0.zip"
+                    "windows": "https://github.com/getgauge/gauge-ts/releases/download/v0.1.0/gauge-ts-0.1.0.zip",
+                    "linux": "https://github.com/getgauge/gauge-ts/releases/download/v0.1.0/gauge-ts-0.1.0.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ts/releases/download/v0.1.0/gauge-ts-0.1.0.zip"
                 },
                 "arm64": {
-                    "windows": "https://github.com/BugDiver/gauge-ts/releases/download/v0.1.0/gauge-ts-0.1.0.zip",
-                    "linux": "https://github.com/BugDiver/gauge-ts/releases/download/v0.1.0/gauge-ts-0.1.0.zip",
-                    "darwin": "https://github.com/BugDiver/gauge-ts/releases/download/v0.1.0/gauge-ts-0.1.0.zip"
+                    "windows": "https://github.com/getgauge/gauge-ts/releases/download/v0.1.0/gauge-ts-0.1.0.zip",
+                    "linux": "https://github.com/getgauge/gauge-ts/releases/download/v0.1.0/gauge-ts-0.1.0.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ts/releases/download/v0.1.0/gauge-ts-0.1.0.zip"
                 }
             }
         },
@@ -76,14 +106,14 @@
 
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/BugDiver/gauge-ts/releases/download/v0.0.5/gauge-ts-0.0.5.zip",
-                    "linux": "https://github.com/BugDiver/gauge-ts/releases/download/v0.0.5/gauge-ts-0.0.5.zip",
-                    "darwin": "https://github.com/BugDiver/gauge-ts/releases/download/v0.0.5/gauge-ts-0.0.5.zip"
+                    "windows": "https://github.com/getgauge/gauge-ts/releases/download/v0.0.5/gauge-ts-0.0.5.zip",
+                    "linux": "https://github.com/getgauge/gauge-ts/releases/download/v0.0.5/gauge-ts-0.0.5.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ts/releases/download/v0.0.5/gauge-ts-0.0.5.zip"
                 },
                 "x64": {
-                    "windows": "https://github.com/BugDiver/gauge-ts/releases/download/v0.0.5/gauge-ts-0.0.5.zip",
-                    "linux": "https://github.com/BugDiver/gauge-ts/releases/download/v0.0.5/gauge-ts-0.0.5.zip",
-                    "darwin": "https://github.com/BugDiver/gauge-ts/releases/download/v0.0.5/gauge-ts-0.0.5.zip"
+                    "windows": "https://github.com/getgauge/gauge-ts/releases/download/v0.0.5/gauge-ts-0.0.5.zip",
+                    "linux": "https://github.com/getgauge/gauge-ts/releases/download/v0.0.5/gauge-ts-0.0.5.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ts/releases/download/v0.0.5/gauge-ts-0.0.5.zip"
                 }
             }
         },
@@ -101,14 +131,14 @@
 
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/BugDiver/gauge-ts/releases/download/v0.0.4/gauge-ts-0.0.4.zip",
-                    "linux": "https://github.com/BugDiver/gauge-ts/releases/download/v0.0.4/gauge-ts-0.0.4.zip",
-                    "darwin": "https://github.com/BugDiver/gauge-ts/releases/download/v0.0.4/gauge-ts-0.0.4.zip"
+                    "windows": "https://github.com/getgauge/gauge-ts/releases/download/v0.0.4/gauge-ts-0.0.4.zip",
+                    "linux": "https://github.com/getgauge/gauge-ts/releases/download/v0.0.4/gauge-ts-0.0.4.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ts/releases/download/v0.0.4/gauge-ts-0.0.4.zip"
                 },
                 "x64": {
-                    "windows": "https://github.com/BugDiver/gauge-ts/releases/download/v0.0.4/gauge-ts-0.0.4.zip",
-                    "linux": "https://github.com/BugDiver/gauge-ts/releases/download/v0.0.4/gauge-ts-0.0.4.zip",
-                    "darwin": "https://github.com/BugDiver/gauge-ts/releases/download/v0.0.4/gauge-ts-0.0.4.zip"
+                    "windows": "https://github.com/getgauge/gauge-ts/releases/download/v0.0.4/gauge-ts-0.0.4.zip",
+                    "linux": "https://github.com/getgauge/gauge-ts/releases/download/v0.0.4/gauge-ts-0.0.4.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ts/releases/download/v0.0.4/gauge-ts-0.0.4.zip"
                 }
             }
         },
@@ -126,14 +156,14 @@
 
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/BugDiver/gauge-ts/releases/download/v0.0.2/gauge-ts-0.0.2.zip",
-                    "linux": "https://github.com/BugDiver/gauge-ts/releases/download/v0.0.2/gauge-ts-0.0.2.zip",
-                    "darwin": "https://github.com/BugDiver/gauge-ts/releases/download/v0.0.2/gauge-ts-0.0.2.zip"
+                    "windows": "https://github.com/getgauge/gauge-ts/releases/download/v0.0.2/gauge-ts-0.0.2.zip",
+                    "linux": "https://github.com/getgauge/gauge-ts/releases/download/v0.0.2/gauge-ts-0.0.2.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ts/releases/download/v0.0.2/gauge-ts-0.0.2.zip"
                 },
                 "x64": {
-                    "windows": "https://github.com/BugDiver/gauge-ts/releases/download/v0.0.2/gauge-ts-0.0.2.zip",
-                    "linux": "https://github.com/BugDiver/gauge-ts/releases/download/v0.0.2/gauge-ts-0.0.2.zip",
-                    "darwin": "https://github.com/BugDiver/gauge-ts/releases/download/v0.0.2/gauge-ts-0.0.2.zip"
+                    "windows": "https://github.com/getgauge/gauge-ts/releases/download/v0.0.2/gauge-ts-0.0.2.zip",
+                    "linux": "https://github.com/getgauge/gauge-ts/releases/download/v0.0.2/gauge-ts-0.0.2.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ts/releases/download/v0.0.2/gauge-ts-0.0.2.zip"
                 }
             }
         }
