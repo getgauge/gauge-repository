@@ -3,6 +3,35 @@
     "description": "Typescript language runner for gauge",
     "versions": [
         {
+            "version": "0.3.2",
+            "gaugeVersionSupport": {
+                "minimum": "1.0.7",
+                "maximum": ""
+            },
+            "install": {
+                "windows": [],
+                "linux": [],
+                "darwin": []
+            },
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/getgauge/gauge-ts/releases/download/v0.3.2/gauge-ts-0.3.2.zip",
+                    "linux": "https://github.com/getgauge/gauge-ts/releases/download/v0.3.2/gauge-ts-0.3.2.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ts/releases/download/v0.3.2/gauge-ts-0.3.2.zip"
+                },
+                "x64": {
+                    "windows": "https://github.com/getgauge/gauge-ts/releases/download/v0.3.2/gauge-ts-0.3.2.zip",
+                    "linux": "https://github.com/getgauge/gauge-ts/releases/download/v0.3.2/gauge-ts-0.3.2.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ts/releases/download/v0.3.2/gauge-ts-0.3.2.zip"
+                },
+                "arm64": {
+                    "windows": "https://github.com/getgauge/gauge-ts/releases/download/v0.3.2/gauge-ts-0.3.2.zip",
+                    "linux": "https://github.com/getgauge/gauge-ts/releases/download/v0.3.2/gauge-ts-0.3.2.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ts/releases/download/v0.3.2/gauge-ts-0.3.2.zip"
+                }
+            }
+        },
+        {
             "version": "0.3.1",
             "gaugeVersionSupport": {
                 "minimum": "1.0.7",
