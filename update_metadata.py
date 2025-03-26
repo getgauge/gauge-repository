@@ -10,11 +10,11 @@ plugin_file = "{0}-install.json"
 def print_usage():
     usage = """
 Usage:
-    python update_metada.py <plugin_name> <new_version>
+    python update_metadata.py <plugin_name> <new_version>
 
 Example:
-    python update_metdata.py java 0.7.4
-    python update_metdata.py html-report 1.2.3
+    python update_metadata.py java 0.7.4
+    python update_metadata.py html-report 1.2.3
 """
     print(usage)
     exit(1)
