@@ -1,8 +1,0 @@
-{
-  "name": "java_maven_selenium",
-  "description": "Gauge template for Java plugin with Maven as Build tool and Selenium as driver to interact with a web browser",
-  "version": "0.0.1",
-
-  "postInstallCmd" : "mvn archetype:generate -DarchetypeArtifactId=gauge-archetype-selenium -DarchetypeGroupId=com.thoughtworks.gauge.maven -DinteractiveMode=true",
-  "postInstallMsg" : "Run specifications with \"mvn clean test\" in project root."
-}

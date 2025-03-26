@@ -1,9 +1,0 @@
-{
-	"Command": [
-		"gauge",
-		"run",
-		"/Users/sswaroop/work/gauge-repository/templates/python_selenium/specs/example.spec:9",
-		"--simple-console",
-		"--hide-suggestion"
-	]
-}
