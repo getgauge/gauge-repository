@@ -15,8 +15,8 @@
             },
             "DownloadUrls": {
                 "x86": {
-                    "windows": "https://github.com/getgauge-contrib/json-report/releases/download/v0.5.0/json-report-0.5.0-windows.386.zip",
-                    "linux": "https://github.com/getgauge-contrib/json-report/releases/download/v0.5.0/json-report-0.5.0-linux.386.zip",
+                    "windows": "",
+                    "linux": "",
                     "darwin": ""
                 },
                 "x64": {
