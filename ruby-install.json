@@ -1,6 +1,35 @@
 {
     "versions": [
         {
+            "version": "0.9.4",
+            "gaugeVersionSupport": {
+                "minimum": "1.0.7",
+                "maximum": ""
+            },
+            "install": {
+                "windows": [],
+                "darwin": [],
+                "linux": []
+            },
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "",
+                    "darwin": "",
+                    "linux": ""
+                },
+                "x64": {
+                    "windows": "https://github.com/getgauge/gauge-ruby/releases/download/v0.9.4/gauge-ruby-0.9.4-windows.x86_64.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ruby/releases/download/v0.9.4/gauge-ruby-0.9.4-darwin.x86_64.zip",
+                    "linux": "https://github.com/getgauge/gauge-ruby/releases/download/v0.9.4/gauge-ruby-0.9.4-linux.x86_64.zip"
+                },
+                "arm64": {
+                    "windows": "https://github.com/getgauge/gauge-ruby/releases/download/v0.9.4/gauge-ruby-0.9.4-windows.arm64.zip",
+                    "darwin": "https://github.com/getgauge/gauge-ruby/releases/download/v0.9.4/gauge-ruby-0.9.4-darwin.arm64.zip",
+                    "linux": "https://github.com/getgauge/gauge-ruby/releases/download/v0.9.4/gauge-ruby-0.9.4-linux.arm64.zip"
+                }
+            }
+        },
+        {
             "version": "0.9.3",
             "gaugeVersionSupport": {
                 "minimum": "1.0.7",
