@@ -3,6 +3,35 @@
     "description": "XML Report plugin for gauge",
     "versions": [
         {
+            "version": "0.5.4",
+            "gaugeVersionSupport": {
+                "minimum": "1.0.7",
+                "maximum": ""
+            },
+            "install": {
+                "windows": [],
+                "linux": [],
+                "darwin": []
+            },
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "https://github.com/getgauge/xml-report/releases/download/v0.5.4/xml-report-0.5.4-windows.x86.zip",
+                    "linux": "https://github.com/getgauge/xml-report/releases/download/v0.5.4/xml-report-0.5.4-linux.x86.zip",
+                    "darwin": ""
+                },
+                "x64": {
+                    "windows": "https://github.com/getgauge/xml-report/releases/download/v0.5.4/xml-report-0.5.4-windows.x86_64.zip",
+                    "linux": "https://github.com/getgauge/xml-report/releases/download/v0.5.4/xml-report-0.5.4-linux.x86_64.zip",
+                    "darwin": "https://github.com/getgauge/xml-report/releases/download/v0.5.4/xml-report-0.5.4-darwin.x86_64.zip"
+                },
+                "arm64": {
+                    "windows": "https://github.com/getgauge/xml-report/releases/download/v0.5.4/xml-report-0.5.4-windows.x86_64.zip",
+                    "linux": "https://github.com/getgauge/xml-report/releases/download/v0.5.4/xml-report-0.5.4-linux.arm64.zip",
+                    "darwin": "https://github.com/getgauge/xml-report/releases/download/v0.5.4/xml-report-0.5.4-darwin.arm64.zip"
+                }
+            }
+        },
+        {
             "version": "0.5.3",
             "gaugeVersionSupport": {
                 "minimum": "1.0.7",
