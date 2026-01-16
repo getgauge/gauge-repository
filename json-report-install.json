@@ -3,6 +3,35 @@
     "description": "JSON style report plugin for Gauge",
     "versions": [
         {
+            "version": "0.5.4",
+            "gaugeVersionSupport": {
+                "minimum": "1.6.0",
+                "maximum": ""
+            },
+            "install": {
+                "windows": [],
+                "linux": [],
+                "darwin": []
+            },
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "",
+                    "linux": "",
+                    "darwin": ""
+                },
+                "x64": {
+                    "windows": "https://github.com/getgauge-contrib/json-report/releases/download/v0.5.4/json-report-0.5.4-windows.x86_64.zip",
+                    "linux": "https://github.com/getgauge-contrib/json-report/releases/download/v0.5.4/json-report-0.5.4-linux.x86_64.zip",
+                    "darwin": "https://github.com/getgauge-contrib/json-report/releases/download/v0.5.4/json-report-0.5.4-darwin.x86_64.zip"
+                },
+                "arm64": {
+                    "windows": "https://github.com/getgauge-contrib/json-report/releases/download/v0.5.4/json-report-0.5.4-windows.arm64.zip",
+                    "linux": "https://github.com/getgauge-contrib/json-report/releases/download/v0.5.4/json-report-0.5.4-linux.arm64.zip",
+                    "darwin": "https://github.com/getgauge-contrib/json-report/releases/download/v0.5.4/json-report-0.5.4-darwin.arm64.zip"
+                }
+            }
+        },
+        {
             "version": "0.5.3",
             "gaugeVersionSupport": {
                 "minimum": "1.6.0",
