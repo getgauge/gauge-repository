@@ -3,6 +3,35 @@
     "description": "Cross-platform command line screenshot utility",
     "versions": [
         {
+            "version": "0.3.3",
+            "gaugeVersionSupport": {
+                "minimum": "0.8.5",
+                "maximum": ""
+            },
+            "install": {
+                "windows": [],
+                "linux": [],
+                "darwin": []
+            },
+            "DownloadUrls": {
+                "x86": {
+                    "windows": "",
+                    "linux": "",
+                    "darwin": ""
+                },
+                "x64": {
+                    "windows": "https://github.com/getgauge/gauge_screenshot/releases/download/v0.3.3/screenshot-0.3.3-windows.x86_64.zip",
+                    "linux": "https://github.com/getgauge/gauge_screenshot/releases/download/v0.3.3/screenshot-0.3.3-linux.x86_64.zip",
+                    "darwin": "https://github.com/getgauge/gauge_screenshot/releases/download/v0.3.3/screenshot-0.3.3-darwin.x86_64.zip"
+                },
+                "arm64": {
+                    "windows": "https://github.com/getgauge/gauge_screenshot/releases/download/v0.3.3/screenshot-0.3.3-windows.arm64.zip",
+                    "linux": "https://github.com/getgauge/gauge_screenshot/releases/download/v0.3.3/screenshot-0.3.3-linux.arm64.zip",
+                    "darwin": "https://github.com/getgauge/gauge_screenshot/releases/download/v0.3.3/screenshot-0.3.3-darwin.arm64.zip"
+                }
+            }
+        },
+        {
             "version": "0.3.2",
             "gaugeVersionSupport": {
                 "minimum": "0.8.5",
